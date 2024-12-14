@@ -31,15 +31,16 @@ const Navbar = () => {
           <li className="nav-item">
             <a href="">Клуб Free Sun</a>
           </li>
-          <li className="nav-item">
-            <a href="">Золотой бонус</a>
-          </li>
-          <li className="nav-item">
-            <a href="">Блог</a>
-          </li>
-          <li className="nav-item">
-            <a href="">Новости</a>
-          </li>
+          <NavLink to="/">
+            <li className="nav-item">Золотой бонус</li>
+          </NavLink>
+          <NavLink to="/">
+            <li className="nav-item">Бло</li>
+          </NavLink>
+          <NavLink to="/">
+            <li className="nav-item">Новости</li>
+          </NavLink>
+
           <li className="nav-item" onClick={scrollToContactsFunc}>
             Контакты
           </li>
