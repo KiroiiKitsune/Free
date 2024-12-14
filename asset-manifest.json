@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Free/static/css/main.5b96905a.css",
-    "main.js": "/Free/static/js/main.2e78216b.js",
+    "main.js": "/Free/static/js/main.31eed129.js",
     "static/media/Cinema-club1.png": "/Free/static/media/Cinema-club1.15886e7d1437f49f35f1.png",
     "static/media/Новикова.jpg": "/Free/static/media/Новикова.7506eedcd2dee05e6151.jpg",
     "static/media/screenplays2.png": "/Free/static/media/screenplays2.5a803144be1071b4066f.png",
@@ -15,6 +15,7 @@
     "static/media/dialogues-in-comedy.png": "/Free/static/media/dialogues-in-comedy.139d018bfd0f653e7d7b.png",
     "static/media/Виноградов.jpg": "/Free/static/media/Виноградов.f8167b32400413015e39.jpg",
     "static/media/histori films.png": "/Free/static/media/histori films.bcfba9bb29f6cba6ebe2.png",
+    "static/media/Томяк.jpg": "/Free/static/media/Томяк.e7a8087fe4b92a199698.jpg",
     "static/media/movie-genres.png": "/Free/static/media/movie-genres.75250482c3f4543718b4.png",
     "static/media/screenwriting-skills2.png": "/Free/static/media/screenwriting-skills2.b7147caa70f955c82e9d.png",
     "static/media/screenwriting-skills.png": "/Free/static/media/screenwriting-skills.06cc678fc592ab84f0b7.png",
@@ -47,10 +48,10 @@
     "static/media/icons8-check.svg": "/Free/static/media/icons8-check.85d39173aa16206bdd0e.svg",
     "index.html": "/Free/index.html",
     "main.5b96905a.css.map": "/Free/static/css/main.5b96905a.css.map",
-    "main.2e78216b.js.map": "/Free/static/js/main.2e78216b.js.map"
+    "main.31eed129.js.map": "/Free/static/js/main.31eed129.js.map"
   },
   "entrypoints": [
     "static/css/main.5b96905a.css",
-    "static/js/main.2e78216b.js"
+    "static/js/main.31eed129.js"
   ]
 }
