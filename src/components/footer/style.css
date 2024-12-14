@@ -1,0 +1,70 @@
+.footer {
+    margin-top: 200px;
+}
+
+.fooret-img {
+    width: 149px;
+    height: 239px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info {
+    display: flex;
+    gap: 78px;
+}
+
+.footer-info-box {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.footer-info-txt {
+    font-family: gothampro_regular;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+}
+
+.footer-info-num {
+    display: flex;
+    gap: 27px;
+    flex-direction: column;
+    text-align: end;
+}
+
+.footer-num {
+    font-family: gothampro_regular;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: flex-end;
+    gap: 22px;
+}
+
+.footer-log {
+    margin-top: 28px;
+    border-top: 0.5px solid rgb(254, 254, 254);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footer-log-txt {
+    font-family: gothampro_regular;
+    margin-top: 28px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: -0.2px;
+}

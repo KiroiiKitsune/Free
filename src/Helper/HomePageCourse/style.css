@@ -1,0 +1,75 @@
+.main {
+  
+    margin-top: 150vh;
+}
+
+.main-title {
+    font-family: gothampro_bold;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 3px;
+}
+
+.main-box {
+    margin: 248px 49px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 59px 44px;
+}
+
+.main-box-cur {
+    position: relative;
+    width: 434px;
+    height: 264px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.main-img-orig {
+    width: 434px;
+    height: 264px;
+}
+
+.main-img {
+    display: inline-block;
+    position: relative;
+    line-height: 0;
+}
+
+.main-img:after {
+    content: "";
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.main-img:hover:after {
+    color: rgb(0, 0, 0);
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background-image: linear-gradient(rgba(251, 223, 0, 0.46), rgba(251, 223, 0, 0.46));
+    opacity: 0.8;
+}
+
+.main-img:before {
+    content: "";
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.main-box-text {
+    position: absolute;
+    font-family: gothampro-medium;
+    bottom: 26px;
+    left: 21px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    z-index: 1;
+}

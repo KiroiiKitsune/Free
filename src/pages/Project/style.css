@@ -1,0 +1,338 @@
+.cen {
+    padding-left: calc(50% - 831px);
+    padding-right: calc(50% - 831px);
+}
+
+
+.course-wrap {
+    margin-bottom: 109px;
+}
+
+.course-title {
+    font-family: gothampro_bold;
+    width: 980px;
+    margin-top: 100px;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0.5px;
+}
+
+.course-wrap-img {
+    position: absolute;
+    width: 1038px;
+    height: 699px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    left: 651px;
+    top: 521px;
+}
+
+.course-box {
+    margin-top: 195px;
+    width: 831px;
+    height: 626px;
+}
+
+.course-tape {
+    position: absolute;
+}
+
+.course-info {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    position: relative;
+    background: #d9d9d9;
+    width: 719px;
+    height: 400px;
+    top: 133px;
+    left: 94px;
+}
+
+.course-info-txt {
+    font-family: gothampro_regular;
+    color: black;
+    font-size: 26px;
+    letter-spacing: 0.25px;
+}
+
+.tutor {
+    margin-top: 145px;
+    margin-right: 75px;
+}
+
+.tutor-box {
+    display: grid;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.tutor-box-info {
+    display: flex;
+    gap: 50px;
+    width: 1117px;
+
+}
+
+.tutor-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.tutor-name {
+    font-family: gothampro_bold;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0.5px;
+    margin-bottom: 25px;
+}
+
+.tutor-txt {
+    font-family: gothampro-medium;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 170%;
+    letter-spacing: -0.4px;
+    width: 715px;
+    overflow: hidden;
+    max-height: 100vh;
+}
+
+.tutor-photo {
+    width: 352px;
+    height: 352px;
+}
+
+.tutor-quote {
+    display: flex;
+    gap: 32px;
+    margin-top: 30px;
+}
+
+.tutor-quote-img {
+    height: 265px;
+}
+
+.tutor-quote-txt {
+    font-family: "gothampro_italic", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    width: 836px;
+    margin-top: 36px;
+}
+
+.data {
+    margin: 210px 0;
+}
+
+.data-box {
+    overflow: hidden;
+    max-height: 500px;
+    width: 1637px;
+
+    border: 1px solid rgb(254, 254, 254);
+    background: rgba(255, 255, 255, 0);
+}
+
+.data-txt {
+    font-family: gothampro-medium;
+    padding: 38px 56px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 170%;
+    letter-spacing: 0.4px;
+}
+
+.dream {
+    margin-bottom: 200px;
+}
+
+.dream-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 1055px;
+    height: 704px;
+    position: absolute;
+    left: 692px;
+}
+
+.dream-info {
+    padding-top: 84px;
+    position: relative;
+}
+
+.dream-title {
+    font-family: gothampro_bold;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0.1px;
+    margin-bottom: 29px;
+}
+
+.dream-txt {
+    font-family: gothampro-medium;
+    width: 743px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 170%;
+    letter-spacing: -0.2px;
+}
+
+.purpose {
+    position: relative;
+    width: 836px;
+    margin-top: 171px;
+    left: 448px;
+    margin-bottom: 25px;
+}
+
+.purpose-title {
+    font-family: gothampro_bold;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0.1px;
+    margin-bottom: 29px;
+}
+
+.purpose-txt {
+    font-family: gothampro-medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 170%;
+    letter-spacing: -0.2px;
+}
+
+.learn {
+    margin-bottom: 150px;
+}
+
+.learn-box {
+    height: 440px;
+    margin-bottom: 51px;
+}
+
+.bg {
+    border-radius: 30px;
+    background: rgb(23, 23, 23);
+}
+
+.learn-title {
+    padding: 55px 55px 30px;
+    font-family: gothampro_regular;
+    font-size: 63px;
+    line-height: 70px;
+    letter-spacing: 0.1px;
+}
+
+.learn-list {
+    display: flex;
+    gap: 22px;
+    width: 724px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 290px;
+}
+
+.lear-list-box {
+    display: flex;
+    padding-left: 102px;
+    gap: 75px;
+}
+
+.learn-list-txt {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    font-family: gothampro-medium;
+    font-size: 26px;
+    letter-spacing: 0.25px;
+}
+
+.focus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.focus-kino {
+    font-family: gothampro_bold;
+    width: 1184px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+
+.scheme {
+    margin-bottom: 178px;
+}
+
+.scheme-bg {
+    position: relative;
+    width: 1643px;
+    background: rgb(217, 217, 217);
+    margin-bottom: 70px;
+    padding: 50px;
+}
+
+.scheme-box {
+    top: 50px;
+    left: 50px;
+    padding-bottom: 20px;
+    width: 1547px;
+    
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+ 
+}
+
+.scheme-bg-img {
+    position: absolute;
+    width: 673px;
+    height: 1314px;
+    right: -96px;
+    bottom: -245px;
+}
+
+.scheme-title {
+    color: rgb(2, 2, 2);
+    font-family: gothampro_bold;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.scheme-tit {
+    font-family: gothampro_bold;
+    font-size: 32px;
+    padding-left: 50px;
+}
+
+.scheme-tit,
+.scheme-txt {
+    line-height: 170%;
+    letter-spacing: -0.2px;
+}
+
+.scheme-txt {
+    font-size: 20px;
+    font-family: gothampro_regular;
+    padding-left: 70px;
+}
+
+.yellow-span {
+    color: rgb(251, 223, 0);
+}

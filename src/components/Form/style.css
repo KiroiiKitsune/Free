@@ -1,0 +1,118 @@
+.form {
+    margin: 100px 0;
+}
+
+.form-bx {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-text {
+    font-family: gothampro_bold;
+    width: 1247px;
+    height: 210px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 92px 0 68px;
+}
+
+.form-box-data {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.2px;
+    padding-left: 36px;
+    width: 1042px;
+    height: 74px;
+    color: rgb(254, 254, 254);
+    border: 1px solid rgb(254, 254, 254);
+    border-radius: 10px;
+    background: rgba(217, 217, 217, 0);
+}
+
+.form-checkbox {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.form-checkbox-year {
+    position: relative;
+    margin-right: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(254, 254, 254);
+    border-radius: 10px;
+    background: rgba(217, 217, 217, 0);
+    transition: 900ms;
+}
+
+.form-checkbox-year::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url(../../img/icons8-check.svg);
+    background-repeat: no-repeat;
+    transition: 500ms;
+}
+
+.form-checkbox-year:checked::after {
+    width: 0px;
+    height: 0px;
+    transition: 900ms;
+}
+
+.form-checkbox-year:disabled {
+    background: rgba(217, 217, 217, 0);
+    border-color: rgba(217, 217, 217, 0);
+}
+
+.form-checkbox-year:disabled::after {
+    filter: grayscale(100%);
+}
+
+.form-btn {
+    width: 350px;
+    height: 76px;
+    background: rgb(251, 223, 0);
+    color: rgb(2, 2, 2);
+    font-family: gothampro_bold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    margin-bottom: 33px;
+    border: none;
+}
+
+.form-btn:hover {
+    background: rgb(166, 147, 0);
+}
+
+.form-pol {
+    font-family: gothampro_bold;
+    margin-bottom: 70px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -0.2px;
+}
+
+.form-pol span {
+    color: rgba(225, 225, 225, 0.6);
+}
