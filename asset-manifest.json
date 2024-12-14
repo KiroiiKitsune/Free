@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Free/static/css/main.5b96905a.css",
-    "main.js": "/Free/static/js/main.89ec6891.js",
+    "main.js": "/Free/static/js/main.2e78216b.js",
     "static/media/Cinema-club1.png": "/Free/static/media/Cinema-club1.15886e7d1437f49f35f1.png",
     "static/media/Новикова.jpg": "/Free/static/media/Новикова.7506eedcd2dee05e6151.jpg",
     "static/media/screenplays2.png": "/Free/static/media/screenplays2.5a803144be1071b4066f.png",
@@ -47,10 +47,10 @@
     "static/media/icons8-check.svg": "/Free/static/media/icons8-check.85d39173aa16206bdd0e.svg",
     "index.html": "/Free/index.html",
     "main.5b96905a.css.map": "/Free/static/css/main.5b96905a.css.map",
-    "main.89ec6891.js.map": "/Free/static/js/main.89ec6891.js.map"
+    "main.2e78216b.js.map": "/Free/static/js/main.2e78216b.js.map"
   },
   "entrypoints": [
     "static/css/main.5b96905a.css",
-    "static/js/main.89ec6891.js"
+    "static/js/main.2e78216b.js"
   ]
 }
