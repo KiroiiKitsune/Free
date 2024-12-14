@@ -611,7 +611,7 @@ export default {
     // курс Производство коммерческого (рекламного) видео
     {
       slug: 'commercialvideoproduction',
-      name: "КУРС “<span class='yellow-span '>ПРОИЗВОДСТВО</span> КОММЕРЧЕСКОГО (РЕКЛАМНОГО) ВИДЕО ”",
+      name: "<span class='yellow-span '>ПРОИЗВОДСТВО КОММЕРЧЕСКОГО ВИДЕО И РЕКЛАМЫ</span>",
       txt: 'info',
       src: './../../img/Creative Photography Studio Scene 2.png',
       alt: 'КУРС Производство коммерческого (рекламного) видео',
