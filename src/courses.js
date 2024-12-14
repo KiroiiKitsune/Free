@@ -1278,7 +1278,7 @@ export default {
       slug: 'Dialoguesincomedy',
       name: "КУРС ДИАЛОГИ В <br>“<span class='yellow-span '>КОИЕДИИ</span>”. ",
       txt: 'info',
-      src: './../../img/Creative Photography Studio Scene 2.png',
+      src: DialoguesComedyTop,
       alt: 'Диалоги в комедии',
       nameTutor: 'МАКСИМ ТОМЯК',
       courseInfo: [
