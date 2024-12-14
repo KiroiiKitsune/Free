@@ -35,7 +35,7 @@ const Navbar = () => {
             <li className="nav-item">Золотой бонус</li>
           </NavLink>
           <NavLink to="/">
-            <li className="nav-item">Бло</li>
+            <li className="nav-item">Блок</li>
           </NavLink>
           <NavLink to="/">
             <li className="nav-item">Новости</li>
