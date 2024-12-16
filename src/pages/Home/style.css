@@ -60,3 +60,7 @@
     background: rgb(194, 194, 194);
     transition: 0.7s;
 }
+
+.polygon-top {
+    margin-left: none;
+}

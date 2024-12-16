@@ -4,7 +4,7 @@ import Course from '../../Helper/HomePageCourse/CourseBox'
 import Form from '../../components/Form/Form'
 import CourseData from './../../courses'
 
-import Arrow from '../../img/Polygon 5.png'
+import Polygon from '../../img/Polygon 5.png'
 
 const Home = () => {
   return (
@@ -34,7 +34,7 @@ const Home = () => {
 
           <button className="top-content-btn">ИДУ В КИНО</button>
         </section>
-        <img className="center" src={Arrow} alt="" />
+        <img className="polygon-top polygon  center" src={Polygon} alt="" />
       </section>
       <Course courseData={CourseData} />
       <Form />

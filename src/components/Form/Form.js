@@ -3,6 +3,7 @@
 
 import { forwardRef } from 'react'
 import './style.css'
+import Polygon from '../../img/Polygon 5.png'
 
 // eslint-disable-next-line no-unused-vars, react/prop-types
 const Form = forwardRef(({ form }, ref) => {
@@ -34,13 +35,11 @@ const Form = forwardRef(({ form }, ref) => {
         <button className="form-btn">Оставить заявку</button>
         <p className="form-pol">
           Нажимая кнопку «заполнить», вы соглашаетесь с{' '}
-          <span>
-            политикой обработки персональных данных
-          </span>
+          <span>политикой обработки персональных данных</span>
         </p>
       </div>
 
-      <img src="./img/Polygon 5.png" alt="" />
+      <img className="polygon" src={Polygon} alt="" />
     </section>
   )
 })
