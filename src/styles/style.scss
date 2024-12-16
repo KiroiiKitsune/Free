@@ -1,0 +1,70 @@
+@import 'laptopL';
+
+
+
+
+
+
+@font-face {
+  font-family: gothampro_regular;
+  src: local("gothampro_regular"), local("gothampro_regular"), url(../fonts/GothamPro.woff2) format("woff2"), url(../fonts/GothamPro.woff) format("woff");
+}
+
+@font-face {
+  font-family: gothampro_black;
+  src: local("gothampro_black"), local("gothampro_black"), url(../fonts/GothamPro-Black.woff2) format("woff2"), url(../fonts/GothamPro-Black.woff) format("woff");
+}
+
+@font-face {
+  font-family: gothampro_bold;
+  src: local("gothampro_bold"), local("gothampro_bold"), url(../fonts/GothamPro-Bold.woff2) format("woff2"), url(../fonts/GothamPro-Bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: gothampro_italic;
+  src: local("gothampro_italic"), local("gothampro_italic"), url(../fonts/GothamPro-Italic.woff2) format("woff2"), url(../fonts/GothamPro-Italic.woff) format("woff");
+}
+
+@font-face {
+  font-family: kaufmann_bt;
+  src: url("../fonts/KAUFMANN.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: gothampro-medium;
+  src: local("gothampro-medium"), local("gothampro-medium"), url(../fonts/gothampro-medium.woff2) format("wott2"), url(../fonts/gothampro-medium.woff) format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #020202;
+  color: rgb(254, 254, 254);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(254, 254, 254);
+}
+
+.yellow-span {
+  color: rgb(251, 223, 0);
+}
+
+.center {
+  padding-left: calc(50% - 746px);
+  padding-right: calc(50% - 746px);
+}
+
+.btn-up {
+  background-repeat: no-repeat;
+  background-position: cen;
+}

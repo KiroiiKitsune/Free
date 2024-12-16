@@ -27,6 +27,11 @@ import Tomyk from './img/Томяк.jpg'
 import DialoguesComedyTop from './img/dialogues-in-comedy.png'
 import DialoguesComedyBot from './img/dialogues-in-comedy1.png'
 
+import CommercialVideo from './img/главная произв-во видео.png'
+import DirectorsWork from './img/главная работа режиссера с актером.png'
+import DialoguesInComedy from './img/главная на диалоги в комедии.png'
+
+
 export default {
   projectList: [
     //курс Основы актерского мастерства
@@ -613,7 +618,7 @@ export default {
       slug: 'commercialvideoproduction',
       name: "<span class='yellow-span '>ПРОИЗВОДСТВО КОММЕРЧЕСКОГО ВИДЕО И РЕКЛАМЫ</span>",
       txt: 'info',
-      src: './../../img/Creative Photography Studio Scene 2.png',
+      src: CommercialVideo,
       alt: 'КУРС Производство коммерческого (рекламного) видео',
       nameTutor: 'АНАСТАСИЯ БАЛАЙКИНА',
       courseInfo: [
@@ -1087,7 +1092,7 @@ export default {
       slug: 'thedirectorsworkwiththeactorrulesofthegame',
       name: "КУРС РАБОТА РЕЖИССЕРА С АКТЕРОМ <br>“<span class='yellow-span '>ПРАВИЛА ИГРЫ</span>”. ",
       txt: 'info',
-      src: './../../img/Creative Photography Studio Scene 2.png',
+      src: DirectorsWork,
       alt: 'Работа режиссера с актером “Правила игры”',
       nameTutor: 'ВЛАДИМИР ВИНОГРАДОВ',
       courseInfo: [
@@ -1279,7 +1284,7 @@ export default {
       slug: 'Dialoguesincomedy',
       name: "КУРС ДИАЛОГИ В <br>“<span class='yellow-span '>КОИЕДИИ</span>”. ",
       txt: 'info',
-      src: DialoguesComedyTop,
+      src: DialoguesInComedy,
       alt: 'Диалоги в комедии',
       nameTutor: 'МАКСИМ ТОМЯК',
       courseInfo: [
