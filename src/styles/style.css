@@ -300,29 +300,45 @@
     letter-spacing: -0.2px;
   }
 }
-@media (min-width: 370px) and (max-width: 500px) {
+@media (max-width: 500px) {
   .main-box-cur {
-    height: 250px;
+    width: 334px;
     width: 346px;
   }
   .main-box {
-    margin: 43px 40px;
+    margin: 43px 20px;
     flex-direction: column;
     align-items: center;
+  }
+  .top-content-text {
+    width: 316px;
+  }
+  .top-content-slogan {
+    margin-left: 164px;
   }
   .form-box-data {
     width: 308px;
   }
+  .form-text {
+    width: 248px;
+    font-size: 18px;
+  }
   .footer-log {
-    width: 380px;
+    width: 335px;
     margin-left: 20px;
     flex-direction: column;
   }
   .main-title {
-    font-size: 32px;
+    font-size: 28px;
   }
   .footer-info {
     margin: 0 0 18px 0px;
+  }
+  .footer-info-box {
+    width: 169px;
+  }
+  .footer-info {
+    gap: 3px;
   }
 }
 @font-face {
