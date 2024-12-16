@@ -366,10 +366,15 @@
 }
 
 @media (max-width: 500px) {
-  .main-box-cur {
-    width: 334px;
-    width: 346px;
-  }
+
+      .main-box-cur {
+        width: 332px;
+        height: 258px;
+    }
+     .main-img-orig {
+        width: 332px;
+        height: 227px;
+    }
 
   .main-box {
     margin: 43px 20px;
