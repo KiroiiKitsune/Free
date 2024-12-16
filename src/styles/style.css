@@ -1,47 +1,105 @@
 @media (min-width: 1440px) and (max-width: 1919px) {
   .header {
-    width: 220%;
+    width: 100%;
     justify-content: space-between;
   }
   .header-logo {
-    width: 345px;
-    margin-left: 150px;
+    width: 200px;
   }
   .nav-list {
-    width: 100%;
-    font-size: 28px;
+    justify-content: space-evenly;
+    font-size: 15px;
+    margin: 0;
   }
   .header-btn {
-    font-size: 26px;
-    width: 390px;
-    height: 100px;
+    font-size: 13px;
+    width: 182px;
+    height: 56px;
   }
   .top {
-    width: 220%;
+    background-position: 389%;
+  }
+  .top-content-title {
+    margin-left: 150px;
+  }
+  .top-content-slogan {
+    margin-left: 275px;
+  }
+  .top-content-text {
+    width: 1096px;
+    font-size: 15px;
+    margin-left: 150px;
+  }
+  .top-content-btn {
+    margin-left: 150px;
+    width: 239px;
+    height: 64px;
+  }
+  .polygon {
+    margin-left: 50px;
+  }
+  .polygon-top {
+    margin-left: 50px;
+  }
+  .top {
+    width: 100%;
   }
   .main {
-    width: 220%;
+    width: 100%;
+    margin-top: 130vh;
+  }
+  .main-title {
+    margin-left: 100px;
+    font-size: 59px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+  }
+  .main-box {
+    margin: 181px 116px;
+    gap: 40px 36px;
+  }
+  .main-box-text {
+    width: 275px;
+    font-size: 17px;
+  }
+  .main-box-cur {
+    width: 378px;
+    height: 268px;
+  }
+  .main-img-orig {
+    width: 379px;
+    height: 263px;
   }
   .form {
-    width: 200%;
+    width: 100%;
   }
   .footer {
-    width: 220%;
+    width: 100%;
   }
   .footer-box {
-    width: 94%;
     display: flex;
-    margin-left: 50px;
     justify-content: space-between;
+    margin: 0 50px;
   }
   .footer-icon {
     margin-right: 50px;
   }
-  .footer-log {
-    margin: 28px 50px 70px;
+  .footer-num {
+    font-size: 30px;
   }
   .footer-info-txt {
-    font-size: 16px;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .footer-info {
+    margin-left: 100px;
+  }
+  .footer-info-box {
+    gap: 13px;
+    width: 291px;
+  }
+  .footer-log {
+    margin: 40px 50px;
   }
 }
 @media (max-width: 1024px) {
@@ -66,17 +124,26 @@
     margin-top: 1358px;
   }
   .main-title {
-    margin-left: 70px;
+    margin-left: 200px;
+    font-size: 53px;
   }
   .main-box {
-    margin: 120px 149px;
+    gap: 42px 64px;
+    margin: 120px 404px;
   }
   .main-box-cur {
-    width: 455px;
-    height: 296px;
+    width: 437px;
+    height: 268px;
   }
   .polygon {
-    margin-left: 55px;
+    margin-left: 200px;
+    width: 35px;
+  }
+  .polygon-top {
+    height: 29px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: 0px;
   }
   .form {
     width: 220%;
@@ -165,8 +232,13 @@
     margin-bottom: 48px;
   }
   .polygon {
-    width: 30px;
-    padding-left: 20px;
+    width: 20px;
+    margin-left: 70px;
+  }
+  .polygon-top {
+    width: 20px;
+    height: 20px;
+    margin-left: 70px;
   }
   .main {
     width: 100%;
@@ -199,7 +271,7 @@
   }
   .form {
     width: 100%;
-    margin: 50px 0 20px;
+    margin: 50px 0 80px;
   }
   .form-text {
     width: 362px;
@@ -283,7 +355,6 @@
   }
   .footer-icon {
     justify-content: center;
-    margin: 0;
   }
   .footer-icon-img {
     width: 50px;
@@ -343,6 +414,10 @@
   }
   .footer-info {
     gap: 3px;
+  }
+  .polygon {
+    margin-left: 30px;
+    width: 19px;
   }
 }
 @font-face {

@@ -65,10 +65,10 @@ const Footer = () => {
 
         <div className="footer-icon">
           <a href="">
-            <img src={VK} alt="" />
+            <img className="footer-icon-img" src={VK} alt="" />
           </a>
           <a href="">
-            <img src={Telegram} alt="" />
+            <img className="footer-icon-img" src={Telegram} alt="" />
           </a>
         </div>
 
