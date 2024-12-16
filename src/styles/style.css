@@ -419,6 +419,9 @@
     margin-left: 30px;
     width: 19px;
   }
+  .footer-icon {
+    margin: 0;
+  }
 }
 @font-face {
   font-family: gothampro_regular;
