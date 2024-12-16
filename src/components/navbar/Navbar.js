@@ -28,16 +28,16 @@ const Navbar = () => {
           <li className="nav-item" onClick={scrollToCourseFunc}>
             Образовательная программа
           </li>
-          <li className="nav-item">
-            <a href="">Клуб Free Sun</a>
-          </li>
-          <NavLink to="/">
+          <NavLink to="/Home">
+            <li className="nav-item">Клуб Free Sun</li>
+          </NavLink>
+          <NavLink to="/Home">
             <li className="nav-item">Золотой бонус</li>
           </NavLink>
-          <NavLink to="/">
+          <NavLink to="/Home">
             <li className="nav-item">Блок</li>
           </NavLink>
-          <NavLink to="/">
+          <NavLink to="/Home">
             <li className="nav-item">Новости</li>
           </NavLink>
 

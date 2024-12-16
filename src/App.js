@@ -26,13 +26,13 @@ function App() {
         <Routes>
           <Route path="/" element={<Navigate to="/home" replace />} />
           {/* <Route path="/" element={<Navigate to="/home" replace />} /> */}
-          <Route path="/home" element={<Home />} />
+          <Route path="/Home" element={<Home />} />
           <Route path="/projects/:slug" element={<CourseDetails />} />
           <Route
             path="/information-about-the-school"
             element={<InfoSchool />}
           ></Route>
-          <Route path="*" element={<Home />} />
+          <Route path="*" element={<Home/>} />
         </Routes>
 
         <BackToTopButton />
