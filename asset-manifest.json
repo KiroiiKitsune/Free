@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/Free/static/css/main.5b96905a.css",
-    "main.js": "/Free/static/js/main.325d5af7.js",
+    "main.css": "/Free/static/css/main.4e69303e.css",
+    "main.js": "/Free/static/js/main.399c730f.js",
+    "static/media/главная произв-во видео.png": "/Free/static/media/главная произв-во видео.7c3cae3b5fdf6abc6294.png",
     "static/media/Cinema-club1.png": "/Free/static/media/Cinema-club1.15886e7d1437f49f35f1.png",
     "static/media/Новикова.jpg": "/Free/static/media/Новикова.7506eedcd2dee05e6151.jpg",
+    "static/media/главная работа режиссера с актером.png": "/Free/static/media/главная работа режиссера с актером.98588df0bc566a923379.png",
     "static/media/screenplays2.png": "/Free/static/media/screenplays2.5a803144be1071b4066f.png",
     "static/media/movie-genres2.png": "/Free/static/media/movie-genres2.ed16469d95bd9c13ccfe.png",
     "static/media/планета (2).png": "/Free/static/media/планета (2).4a4264483237b41ea11d.png",
@@ -15,6 +17,7 @@
     "static/media/dialogues-in-comedy.png": "/Free/static/media/dialogues-in-comedy.139d018bfd0f653e7d7b.png",
     "static/media/Виноградов.jpg": "/Free/static/media/Виноградов.f8167b32400413015e39.jpg",
     "static/media/histori films.png": "/Free/static/media/histori films.bcfba9bb29f6cba6ebe2.png",
+    "static/media/главная на диалоги в комедии.png": "/Free/static/media/главная на диалоги в комедии.8e21e2d2265f3e04bd8b.png",
     "static/media/Томяк.jpg": "/Free/static/media/Томяк.e7a8087fe4b92a199698.jpg",
     "static/media/movie-genres.png": "/Free/static/media/movie-genres.75250482c3f4543718b4.png",
     "static/media/screenwriting-skills2.png": "/Free/static/media/screenwriting-skills2.b7147caa70f955c82e9d.png",
@@ -47,11 +50,11 @@
     "static/media/GothamPro-Black.woff2": "/Free/static/media/GothamPro-Black.7ed52d1381d16affbaa7.woff2",
     "static/media/icons8-check.svg": "/Free/static/media/icons8-check.85d39173aa16206bdd0e.svg",
     "index.html": "/Free/index.html",
-    "main.5b96905a.css.map": "/Free/static/css/main.5b96905a.css.map",
-    "main.325d5af7.js.map": "/Free/static/js/main.325d5af7.js.map"
+    "main.4e69303e.css.map": "/Free/static/css/main.4e69303e.css.map",
+    "main.399c730f.js.map": "/Free/static/js/main.399c730f.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b96905a.css",
-    "static/js/main.325d5af7.js"
+    "static/css/main.4e69303e.css",
+    "static/js/main.399c730f.js"
   ]
 }
