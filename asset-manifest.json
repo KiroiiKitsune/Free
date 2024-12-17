@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Free/static/css/main.e73a784a.css",
+    "main.css": "/Free/static/css/main.97e0c2ea.css",
     "main.js": "/Free/static/js/main.2be752b5.js",
     "static/media/главная произв-во видео.png": "/Free/static/media/главная произв-во видео.7c3cae3b5fdf6abc6294.png",
     "static/media/Cinema-club1.png": "/Free/static/media/Cinema-club1.15886e7d1437f49f35f1.png",
@@ -50,11 +50,11 @@
     "static/media/GothamPro-Black.woff2": "/Free/static/media/GothamPro-Black.7ed52d1381d16affbaa7.woff2",
     "static/media/icons8-check.svg": "/Free/static/media/icons8-check.85d39173aa16206bdd0e.svg",
     "index.html": "/Free/index.html",
-    "main.e73a784a.css.map": "/Free/static/css/main.e73a784a.css.map",
+    "main.97e0c2ea.css.map": "/Free/static/css/main.97e0c2ea.css.map",
     "main.2be752b5.js.map": "/Free/static/js/main.2be752b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.e73a784a.css",
+    "static/css/main.97e0c2ea.css",
     "static/js/main.2be752b5.js"
   ]
 }
