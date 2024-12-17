@@ -241,8 +241,11 @@
     margin-left: 70px;
   }
   .main {
+    display: flex;
     width: 100%;
     margin-top: 1000px;
+    flex-direction: column;
+    align-items: center;
   }
   .main-title {
     font-size: 34px;
@@ -252,8 +255,9 @@
     margin: 0;
   }
   .main-box {
-    padding: 43px 77px;
-    gap: 18px 1px;
+    width: 657px;
+    padding: 43px 10px;
+    gap: 18px 18px;
     justify-content: center;
   }
   .main-box-text {
@@ -382,6 +386,7 @@
     height: 227px;
   }
   .main-box {
+    width: 358px;
     padding: 43px 20px;
     flex-direction: column;
     align-items: center;
