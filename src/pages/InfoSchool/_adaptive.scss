@@ -1,215 +1,24 @@
-.about {
-  margin-top: 178px;
-}
-
-.about-cont {
-  display: flex;
-  margin-bottom: 36px;
-}
-
-.about-us {
-  position: absolute;
-  font-family: Gotham Pro;
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 70px;
-  letter-spacing: 0.5px;
-}
-
-.about-box {
-  padding-top: 33px;
-  display: flex;
-  flex-direction: column;
-  gap: 22px;
-  background: rgba(0, 0, 0, 0.3);
-  margin-top: 175px;
-  width: 890px;
-  height: 528px;
-  z-index: 1;
-}
-
-.about-box-txt {
-  font-family: gothampro-medium;
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 35px;
-  letter-spacing: -0.2px;
-  width: 846px;
-  height: 140px;
-}
-
-.about-img {
-  position: absolute;
-  width: 1043px;
-  height: 736px;
-  right: 50px;
-}
-
-.philosophy {
-  margin-top: 476px;
-}
-
-.philosophy-title {
-  font-family: gothampro_bold;
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 70px;
-  letter-spacing: 0.5px;
-  width: 900px;
-  height: 140px;
-}
-
-.philosophy-box {
-  border: 1px solid rgba(255, 255, 255, 0.8);
-  border-radius: 30px;
-  background: rgba(217, 217, 217, 0);
-  margin: 119px 0 160px;
-}
-
-.philosophy-box-txt {
-  font-family: gothampro-medium;
-  font-size: 23px;
-  font-weight: 400;
-  line-height: 35px;
-  letter-spacing: -0.2px;
-  padding: 34px 58px;
-}
-
-.philosophy-content {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 98px;
-}
-
-.philosophy-content-box {
-  width: 746px;
-  height: 300px;
-  display: flex;
-  padding: 36px 26px;
-}
-
-.philosophy-content-box-bg {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.philosophy-num {
-  width: 53px;
-  height: 53px;
-  border-radius: 52px;
-  background: rgb(251, 223, 0);
-}
-
-.philosophy-num-txt {
-  text-align: center;
-  color: rgb(0, 0, 0);
-  font-family: gothampro-medium;
-  font-size: 38px;
-  font-weight: 400;
-  line-height: 150%;
-}
-
-.philosophy-content-wrap {
-  margin-left: 12px;
-  width: 625px;
-}
-
-.philosophy-content-title {
-  font-family: gothampro_bold;
-  font-size: 38px;
-  font-weight: 700;
-  line-height: 36px;
-  margin-bottom: 20px;
-}
-
-.philosophy-content-txt {
-  font-family: gothampro-medium;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: -0.2px;
-}
-
-.concept-box {
-  display: flex;
-  margin-top: 173px;
-}
-
-.concept-content {
-  margin-bottom: 190px;
-  margin-right: 113px;
-}
-
-.concept-title {
-  font-family: gothampro_bold;
-  width: 730px;
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 70px;
-  letter-spacing: 0.5px;
-  margin-bottom: 140px;
-}
-
-.concept-txt {
-  font-family: gothampro-medium;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 170%;
-  letter-spacing: -0.2px;
-  width: 836px;
-}
-
-.concept-wrap-img {
-  width: 568px;
-  height: 568px;
-  position: absolute;
-}
-
-.concept-wrap-txt {
-  position: relative;
-  font-family: gothampro-medium;
-  font-size: 20px;
-  line-height: 112%;
-  letter-spacing: -0.1px;
-  width: 200px;
-}
-
-.concept-wrap-txt-1 {
-  top: 132px;
-  right: 50px;
-}
-
-.concept-wrap-txt-2 {
-  font-family: gothampro_italic;
-  font-weight: bold;
-  top: 417px;
-  left: 22px;
-}
-
-.concept-wrap-txt-3 {
-  top: 393px;
-  left: 323px;
-}
-
-.concept-wrap-txt-4 {
-  top: 221px;
-  left: 510px;
-}
 
 @media (max-width: 1024px) {
-  .about {
-    width: 200%;
-  }
-  .philosophy {
-    width: 220%;
-  }
-  .concept {
-    width: 220%;
-  }
+    .about {
+        width: 200%;
+    }
+
+    .philosophy {
+        width: 220%;
+    }
+
+    .concept {
+        width: 220%;
+    }
 }
+
+
 @media (max-width: 768px) {
   .about {
     margin-top: 20px;
   }
+
   .about-box {
     text-align: center;
     padding-top: 33px;
@@ -218,6 +27,7 @@
     width: 657px;
     height: 326px;
   }
+
   .about-box-txt {
     font-size: 12px;
     font-weight: 400;
@@ -226,52 +36,63 @@
     width: 654px;
     height: 140px;
   }
+
   .about-cont {
     flex-direction: column;
     align-items: center;
   }
+
   .about-img {
     position: absolute;
     width: 614px;
     height: 415px;
     right: 9px;
   }
+
   .philosophy {
     margin-top: 121px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .philosophy-title {
     text-align: center;
     width: 377px;
     font-size: 48px;
     line-height: 56px;
   }
+
   .philosophy-box-txt {
     text-align: center;
     font-size: 21px;
   }
+
   .philosophy-box {
     border-radius: 30px;
     margin: 93px 20px 113px;
   }
+
   .philosophy-content {
     flex-direction: column;
     margin-bottom: 8px;
   }
+
   .philosophy-content-box-bg {
     background: none;
   }
+
   .philosophy-content-box-mob {
     background: rgba(255, 255, 255, 0.1);
   }
+
   .concept-box {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .concept-title {
     text-align: center;
     font-size: 34px;
@@ -280,6 +101,7 @@
     letter-spacing: 0.5px;
     margin-bottom: 34px;
   }
+
   .concept-content {
     display: flex;
     flex-direction: column;
@@ -287,6 +109,7 @@
     margin-bottom: 60px;
     margin-right: 0;
   }
+
   .concept-txt {
     text-align: center;
     font-size: 17px;
@@ -294,6 +117,7 @@
     letter-spacing: -0.2px;
     width: 639px;
   }
+
   .concept-wrap-img {
     width: 237px;
     height: 240px;
@@ -301,6 +125,7 @@
     margin-bottom: 150px;
     right: 266px;
   }
+
   .concept-wrap-txt {
     font-size: 11px;
     line-height: 138%;
@@ -311,34 +136,40 @@
     top: 0px;
     right: 74px;
   }
+
   .concept-wrap-txt-2 {
     font-family: gothampro_italic;
     font-weight: bold;
     top: 159px;
     left: -77px;
   }
+
   .concept-wrap-txt-3 {
     top: 157px;
     left: 115px;
     margin-bottom: 202px;
   }
+
   .concept-wrap-txt-4 {
     width: 76px;
     top: -265px;
     left: 150px;
   }
 }
+
 @media (max-width: 500px) {
   .about {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .about-cont {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .about-box {
     width: 375px;
     margin-top: 88px;
@@ -352,15 +183,18 @@
     width: auto;
     height: auto;
   }
+
   .about-img {
     display: none;
   }
+
   .philosophy {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .philosophy-title {
     text-align: center;
     font-size: 26px;
@@ -369,57 +203,73 @@
     width: 271px;
     height: 159px;
   }
+
   .philosophy-box {
     text-align: center;
     width: 300px;
     margin: 0px 40px 73px;
   }
+
   .philosophy-box-txt {
     font-size: 17px;
     line-height: 29px;
     padding: 25px 35px;
   }
+
   .philosophy-content {
     margin: 0 15px;
     justify-content: center;
   }
+
   .philosophy-content-box {
     width: 345px;
     height: 300px;
     display: flex;
     padding: 17px 14px;
   }
+
   .philosophy-content-title {
     text-align: center;
     font-size: 25px;
     line-height: 27px;
   }
+
   .philosophy-content-wrap {
     margin-left: 12px;
     width: 262px;
   }
+
   .philosophy-content-txt {
     text-align: center;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: -0.2px;
   }
+
   .philosophy-num {
     width: 28px;
     height: 26px;
     border-radius: 52px;
     background: rgb(251, 223, 0);
   }
+
   .philosophy-num-txt {
     font-size: 18px;
   }
+
+
+
   .concept-title {
     width: 230px;
   }
+
   .concept-txt {
     width: 345px;
   }
+
   .concept-wrap-img {
+
     right: 80px;
   }
-}/*# sourceMappingURL=style.css.map */
+
+}

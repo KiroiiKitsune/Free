@@ -15,7 +15,7 @@ const InfoSchool = () => {
             <p className="about-box-txt">
               Мы получили образование в нескольких киношколах и пришли к выводу,
               что многиеважные темы остаются нераскрытыми в процессе обучения.
-              Вот тогда у нас и возникла идея создания киношколы
+              Вот тогда у нас и возникла идея создания киношколы{' '}
               <span className="yellow-span">
                 с детальным подходом к образованию
               </span>
@@ -66,18 +66,18 @@ const InfoSchool = () => {
               </h3>
               <p className="philosophy-content-txt">
                 Мы предлагаем тщательно проработанные{' '}
-                <span className="yellow-span">авторские программы</span> ,
+                <span className="yellow-span">авторские программы</span>,
                 которые глубоко раскрывают все аспекты кинопроизводства и
                 основаны на актуальных запросах киноиндустрии. Каждая новая тема
                 закрепляется путем выполнения практических заданий, позволяя{' '}
-                <span className="yellow-span">выработать навык</span> и
+                <span className="yellow-span">выработать навык</span> и{' '}
                 <span className="yellow-span">
                   усовершенствовать мастерство
                 </span>{' '}
               </p>
             </div>
           </li>
-          <li className="philosophy-content-box philosophy-content-box-bg">
+          <li className="philosophy-content-box philosophy-content-box-bg philosophy-content-box-mob">
             <div className="philosophy-num">
               <p className="philosophy-num-txt">2</p>
             </div>
@@ -88,12 +88,12 @@ const InfoSchool = () => {
               <p className="philosophy-content-txt">
                 Каждому студенту предоставляется персональное внимание и
                 поддержка. Мы адаптируем образовательный процесс под ваш опыт,
-                обеспечивая максимально эффективное и
+                обеспечивая максимально эффективное и{' '}
                 <span className="yellow-span">комфортное обучение</span>{' '}
               </p>
             </div>
           </li>
-          <li className="philosophy-content-box philosophy-content-box-bg">
+          <li className="philosophy-content-box philosophy-content-box-bg ">
             <div className="philosophy-num">
               <p className="philosophy-num-txt">3</p>
             </div>
@@ -101,7 +101,7 @@ const InfoSchool = () => {
               <h3 className="philosophy-content-title">Уникальность</h3>
               <p className="philosophy-content-txt">
                 Наши курсы разработаны действующими профессионалами
-                киноиндустрии и включают самые практичные методики. Вы получите
+                киноиндустрии и включают самые практичные методики. Вы получите{' '}
                 <span className="yellow-span">
                   доступ к эксклюзивным материалам
                 </span>{' '}
@@ -110,7 +110,7 @@ const InfoSchool = () => {
             </div>
           </li>
 
-          <li className="philosophy-content-box">
+          <li className="philosophy-content-box philosophy-content-box-mob">
             <div className="philosophy-num">
               <p className="philosophy-num-txt">4</p>
             </div>
@@ -121,7 +121,7 @@ const InfoSchool = () => {
               <p className="philosophy-content-txt">
                 Мы поддерживаем ваше профессиональное развитие даже после
                 прохождения обучения в нашей киношколе, предоставляя
-                консультации и помощь. Программа
+                консультации и помощь. Программа{' '}
                 <span className="yellow-span">«Золотой бонус»</span>{' '}
                 обеспечивает лучшим студентам{' '}
                 <span className="yellow-span">
@@ -131,7 +131,7 @@ const InfoSchool = () => {
               </p>
             </div>
           </li>
-          <li className="philosophy-content-box">
+          <li className="philosophy-content-box ">
             <div className="philosophy-num">
               <p className="philosophy-num-txt">5</p>
             </div>
@@ -150,9 +150,8 @@ const InfoSchool = () => {
             </div>
           </li>
         </ul>
-
-        <img className="polygon" src={Polygon} alt="" />
       </section>
+      <img className="polygon" src={Polygon} alt="" />
 
       <section className="concept center">
         <div className="concept-box">
@@ -185,8 +184,8 @@ const InfoSchool = () => {
             <p className="concept-wrap-txt concept-wrap-txt-4">Киножанры</p>
           </div>
         </div>
-        <img className="polygon" src={Polygon} alt="" />
       </section>
+      <img className="polygon" src={Polygon} alt="" />
     </>
   )
 }
