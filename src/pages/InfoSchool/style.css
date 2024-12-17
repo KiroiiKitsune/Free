@@ -258,9 +258,13 @@
     border-radius: 30px;
     margin: 93px 20px 113px;
   }
+  .philosophy-content-box {
+    width: 700px;
+  }
   .philosophy-content {
     flex-direction: column;
     margin-bottom: 8px;
+    align-items: center;
   }
   .philosophy-content-box-bg {
     background: none;
@@ -323,14 +327,14 @@
     left: -77px;
   }
   .concept-wrap-txt-3 {
-    top: 157px;
-    left: 115px;
+    top: 144px;
+    left: 103px;
     margin-bottom: 202px;
   }
   .concept-wrap-txt-4 {
     width: 76px;
     top: -265px;
-    left: 150px;
+    left: 141px;
   }
 }
 @media (max-width: 500px) {

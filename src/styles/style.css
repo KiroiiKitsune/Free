@@ -55,7 +55,7 @@
     letter-spacing: 0.3px;
   }
   .main-box {
-    margin: 181px 116px;
+    padding: 181px 116px;
     gap: 40px 36px;
   }
   .main-box-text {
@@ -129,7 +129,7 @@
   }
   .main-box {
     gap: 42px 64px;
-    margin: 120px 404px;
+    padding: 120px 404px;
   }
   .main-box-cur {
     width: 437px;
@@ -252,7 +252,7 @@
     margin: 0;
   }
   .main-box {
-    margin: 43px 77px;
+    padding: 43px 77px;
     gap: 18px 14px;
   }
   .main-box-text {
@@ -381,7 +381,7 @@
     height: 227px;
   }
   .main-box {
-    margin: 43px 20px;
+    padding: 43px 20px;
     flex-direction: column;
     align-items: center;
   }

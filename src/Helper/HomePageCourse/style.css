@@ -12,7 +12,7 @@
 }
 
 .main-box {
-    margin: 248px 49px;
+    padding: 248px 49px;
     display: flex;
     flex-wrap: wrap;
     gap: 59px 44px;
