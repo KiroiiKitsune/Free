@@ -5,7 +5,7 @@ import Footerlog from './../../img/logofoot.png'
 import Telegram from './../../img/Telegram App.png'
 import VK from './../../img/VK com.png'
 import BackToTopButton from '../../Helper/scroll/BackToTopButton'
-
+import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -15,9 +15,10 @@ const Footer = () => {
 
           <div className="footer-info">
             <div className="footer-info-box">
-              <a className="footer-info-txt" href="">
-                О нас
-              </a>
+              <NavLink to="/information-about-the-school">
+                <p className="footer-info-txt">О нас</p>
+              </NavLink>
+
               <a className="footer-info-txt" href="">
                 Образовательная программа
               </a>
