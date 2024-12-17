@@ -209,6 +209,7 @@
 @media (max-width: 768px) {
   .about {
     margin-top: 20px;
+    width: 100%;
   }
   .about-box {
     text-align: center;
@@ -237,6 +238,7 @@
     right: 9px;
   }
   .philosophy {
+    width: 100%;
     margin-top: 121px;
     display: flex;
     flex-direction: column;
@@ -271,6 +273,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .concept {
+    width: 100%;
   }
   .concept-title {
     text-align: center;
