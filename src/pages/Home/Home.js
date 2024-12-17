@@ -37,6 +37,7 @@ const Home = () => {
         <img className="polygon-top polygon  center" src={Polygon} alt="" />
       </section>
       <Course courseData={CourseData} />
+      <img className="polygon" src={Polygon} alt="" />
       <Form />
     </>
   )
