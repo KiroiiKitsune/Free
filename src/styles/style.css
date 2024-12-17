@@ -253,7 +253,8 @@
   }
   .main-box {
     padding: 43px 77px;
-    gap: 18px 14px;
+    gap: 18px 1px;
+    justify-content: center;
   }
   .main-box-text {
     font-size: 17px;
