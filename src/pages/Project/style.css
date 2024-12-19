@@ -1,6 +1,6 @@
-.cent {
-  padding-left: calc(50% - 746px);
-  padding-right: calc(50% - 746px);
+.cen {
+  padding-left: calc(50% - 831px);
+  padding-right: calc(50% - 831px);
 }
 
 .course-wrap {
@@ -561,6 +561,9 @@
     right: -60px;
     bottom: -120px;
   }
+  .polygon-course {
+    margin-left: 0;
+  }
 }
 @media (max-width: 768px) {
   .course {
@@ -696,6 +699,7 @@
     font-size: 14px;
     line-height: 154%;
     text-align: center;
+    width: auto;
   }
   .learn {
     padding: 0 70px;
@@ -797,6 +801,9 @@
     left: 20px;
     top: 34px;
   }
+  .course-wrap {
+    margin: 0;
+  }
   .tutor-box {
     display: flex;
     flex-direction: column;
@@ -888,6 +895,7 @@
     font-size: 14px;
     line-height: 154%;
     text-align: center;
+    width: auto;
   }
   .learn {
     padding: 0 15px;
