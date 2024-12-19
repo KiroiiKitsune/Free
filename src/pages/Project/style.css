@@ -571,9 +571,6 @@
 }
 @media (min-width: 320px) and (max-width: 380px) {
   .course-wrap-img {
-    width: auto;
     height: 235px;
-    left: 0px;
-    top: 0px;
   }
 }/*# sourceMappingURL=style.css.map */
