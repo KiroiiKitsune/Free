@@ -11,8 +11,8 @@ const Form = forwardRef(({ form }, ref) => {
     <section className="form center " ref={ref}>
       <div className="form-bx">
         <h2 className="form-text">
-          Оставьте заявку, чтобы получить консультацию или узнать больше о “FREE
-          SUN SCHOOL”
+          Оставьте заявку, чтобы получить консультацию или узнать больше о FREE
+          SUN SCHOOL
         </h2>
 
         <div className="form-box">

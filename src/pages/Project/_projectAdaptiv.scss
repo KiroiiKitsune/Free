@@ -1,0 +1,248 @@
+@media (max-width: 500px) {
+  .course {
+    padding: 0 25px;
+  }
+
+  .course-title {
+    text-align: center;
+    width: auto;
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0.5px;
+  }
+
+  .course-box {
+    margin-top: 25px;
+    width: auto;
+    height: auto;
+  }
+
+  .course-tape {
+    width: 345px;
+  }
+  .course-info {
+    padding: 15px;
+    gap: 13px;
+    width: 298px;
+    height: 166px;
+    top: 56px;
+    left: 39px;
+  }
+
+  .course-info-txt {
+    font-size: 11px;
+    letter-spacing: 0.1px;
+  }
+
+  .course-wrap-img {
+    display: none;
+  }
+
+  .tutor {
+    margin-top: 92px;
+    margin-right: 0px;
+  }
+  .tutor-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .tutor-box-info {
+    flex-direction: column;
+    width: 345px;
+    height: 640px;
+    align-items: center;
+  }
+
+  .tutor-name {
+    font-size: 30px;
+  }
+
+  .tutor-quote-img {
+    display: none;
+  }
+
+  .tutor-quote {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+  }
+
+  .tutor-txt {
+    font-size: 14px;
+    text-align: center;
+    line-height: 128%;
+    letter-spacing: -0.4px;
+    width: 300px;
+  }
+
+  .tutor-quote-txt {
+    font-family: 'gothampro_italic', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    width: 300px;
+    margin-top: 54px;
+    text-align: center;
+  }
+
+  .tutor-photo {
+    width: 235px;
+  }
+
+  .data {
+    margin: 82px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .data-box {
+    border-radius: 20px;
+  }
+
+  .data-txt {
+    padding: 15px 15px;
+    font-size: 12px;
+    line-height: 121%;
+    letter-spacing: 0.2px;
+  }
+
+  .dream {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 50px;
+  }
+
+  .dream-bg {
+    display: none;
+  }
+  .dream-txt {
+    font-family: gothampro-medium;
+    width: auto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 170%;
+    letter-spacing: -0.2px;
+  }
+
+  .purpose {
+    position: relative;
+    width: auto;
+    margin-top: 171px;
+    left: 0;
+    margin-bottom: 25px;
+  }
+
+  .learn {
+    margin: 50px 25px 40px;
+  }
+
+  .lear-list-box {
+    padding-left: 15px;
+    gap: 3px;
+    flex-direction: column;
+  }
+
+  .learn-title {
+    padding: 9px 12px 9px;
+    font-size: 27px;
+    line-height: 70px;
+    letter-spacing: 0.1px;
+  }
+
+  .right-arrow {
+    width: 20px;
+  }
+
+  .learn-box {
+    width: auto;
+    height: auto;
+  }
+
+  .lear-list-box {
+    padding-left: 15px;
+    gap: 0px;
+    flex-direction: column;
+  }
+  .learn-list {
+    display: flex;
+    gap: 22px;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+  }
+
+  .learn-list-txt {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    font-family: gothampro-medium;
+    font-size: 15px;
+    letter-spacing: 0.25px;
+  }
+
+  .focus {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 80px;
+  }
+
+  .focus-kino {
+    width: auto;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .scheme {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+  }
+
+  .scheme-bg {
+    position: relative;
+    width: auto;
+    background: rgb(217, 217, 217);
+    margin-bottom: 70px;
+    padding: 5px;
+  }
+
+  .scheme-box {
+    padding-bottom: 20px;
+    width: auto;
+  }
+
+  .scheme-title {
+    font-size: 35px;
+    line-height: 37px;
+    margin-top: 16px;
+    margin-bottom: 31px;
+  }
+
+  .scheme-list-box {
+    margin-bottom: 10px;
+  }
+
+  .scheme-tit,
+  .scheme-txt {
+    line-height: 121%;
+    letter-spacing: -0.2px;
+  }
+  .scheme-tit {
+    font-size: 15px;
+    padding-left: 13px;
+  }
+
+  .scheme-txt {
+    font-size: 13px;
+    padding-left: 30px;
+  }
+
+  .scheme-bg-img {
+    display: none;
+  }
+}

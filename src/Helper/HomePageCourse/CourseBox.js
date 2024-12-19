@@ -7,7 +7,6 @@ import React from 'react'
 
 import {  NavLink } from 'react-router-dom'
 import courseData from '../../courses'
-// import Polygon from '../../img/Polygon 5.png'
 
 
 
