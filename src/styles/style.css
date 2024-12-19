@@ -124,7 +124,7 @@
     margin-top: 1358px;
   }
   .main-title {
-    margin-left: 200px;
+    margin-left: 378px;
     font-size: 53px;
   }
   .main-box {
@@ -136,7 +136,7 @@
     height: 268px;
   }
   .polygon {
-    margin-left: 200px;
+    margin-left: 365px;
     width: 35px;
   }
   .polygon-top {
@@ -194,10 +194,10 @@
     align-items: center;
   }
   .top-content-title {
-    font-size: 30px;
-    width: 276px;
-    text-align: center;
+    font-size: 23px;
+    width: 222px;
     line-height: 40px;
+    margin-right: 320px;
   }
   .nav {
     display: none;
@@ -211,17 +211,23 @@
   .top-content-text {
     width: 357px;
     text-align: center;
-    margin: 55px 0 100px;
     font-size: 15px;
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 1px;
   }
+  .top-content-text-1 {
+    margin-top: 85px;
+  }
+  .top-content-text-2 {
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
   .top-content-slogan {
     font-size: 22px;
     line-height: 29px;
     margin-top: 15px;
-    margin-left: 184px;
+    margin-left: -50px;
   }
   .top-content-btn {
     width: 231px;
@@ -377,6 +383,13 @@
   }
 }
 @media (max-width: 500px) {
+  .top {
+    background-size: 680px 736px;
+    height: 735px;
+  }
+  .main {
+    margin-top: 877px;
+  }
   .main-box-cur {
     width: 320px;
     height: 258px;
@@ -391,11 +404,25 @@
     flex-direction: column;
     align-items: center;
   }
+  .top-content-title {
+    margin-right: 92px;
+  }
   .top-content-text {
     width: 316px;
+    font-size: 13px;
+    line-height: 26px;
+  }
+  .top-content-text-1 {
+    margin-top: 55px;
+  }
+  .top-content-text-2 {
+    margin-top: 20px;
+    margin-bottom: 55px;
   }
   .top-content-slogan {
-    margin-left: 164px;
+    margin-left: 63px;
+    font-size: 17px;
+    line-height: 5px;
   }
   .form-box-data {
     width: 308px;
