@@ -5,8 +5,25 @@ import Form from '../../components/Form/Form'
 import CourseData from './../../courses'
 
 import Polygon from '../../img/Polygon 5.png'
+import { useEffect } from 'react'
 
 const Home = () => {
+
+ useEffect(() => {
+   const targetId = sessionStorage.getItem('scrollTargetId')
+   if (targetId) {
+     const targetElement = document.getElementById(targetId)
+     if (targetElement) {
+       window.scrollTo({
+         top: targetElement.offsetTop,
+         behavior: 'smooth',
+       })
+       sessionStorage.removeItem('scrollTargetId')
+     }
+   }
+ }, [])
+
+
   return (
     <>
       <section className="top center">

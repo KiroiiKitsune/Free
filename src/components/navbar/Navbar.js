@@ -1,24 +1,44 @@
-import React, { useRef, useState} from 'react'
+import React, { useRef, useState } from 'react'
 
 import './style.css'
 import LogoTop from './../../img/лого.png'
 import ScrollToForm from './../../Helper/scroll/scrollForm'
-import ScrollToCourse from './../../Helper/scroll/scrollCourse'
 import ScrollToContacts from './../../Helper/scroll/scrollContacts'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate, useLocation } from 'react-router-dom'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 
 const Navbar = () => {
   const navbarRef = useRef(null)
+  const navigate = useNavigate()
+  const location = useLocation()
 
   const scrollToFormFunc = ScrollToForm()
-  const scrollToCourseFunc = ScrollToCourse()
   const scrollToContactsFunc = ScrollToContacts()
 
-  const [nav, setNav ] = useState(false);
-     const handleNavLinkClick = () => {
-       setNav(false)
-     }
+  const [nav, setNav] = useState(false)
+
+  const handleNavLinkClick = (targetPath, targetId) => {
+    setNav(false)
+
+    // Сохраняем targetId в sessionStorage
+    if (targetId) {
+      sessionStorage.setItem('scrollTargetId', targetId)
+    } else {
+      sessionStorage.removeItem('scrollTargetId')
+    }
+    // Переходим на главную страницу если нужно
+    if (targetPath && targetPath !== location.pathname) {
+      navigate(targetPath)
+    } else if (targetId) {
+      const targetElement = document.getElementById(targetId)
+      if (targetElement) {
+        window.scrollTo({
+          top: targetElement.offsetTop,
+          behavior: 'smooth',
+        })
+      }
+    }
+  }
 
   return (
     <header className="header" ref={navbarRef}>
@@ -29,10 +49,20 @@ const Navbar = () => {
       <nav className="nav">
         <ul className={nav ? ['nav-list', 'active'].join(' ') : ['nav-list']}>
           <NavLink to="/information-about-the-school">
-            <li className="nav-item">О нас</li>
+            <li
+              className="nav-item"
+              onClick={() =>
+                handleNavLinkClick('/information-about-the-school')
+              }
+            >
+              О нас
+            </li>
           </NavLink>
 
-          <li className="nav-item" onClick={scrollToCourseFunc}>
+          <li
+            className="nav-item"
+            onClick={() => handleNavLinkClick('/home', 'course')}
+          >
             Образовательная программа
           </li>
           <NavLink to="/Home" onClick={handleNavLinkClick}>
