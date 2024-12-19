@@ -368,10 +368,10 @@
     letter-spacing: 0.1px;
   }
   .course-wrap-img {
-    width: auto;
+    width: 385px;
     height: 266px;
-    left: 0px;
-    top: 0px;
+    left: 20px;
+    top: 34px;
   }
   .tutor {
     margin-top: 92px;
@@ -571,6 +571,9 @@
 }
 @media (min-width: 320px) and (max-width: 380px) {
   .course-wrap-img {
-    height: 235px;
+    width: 337px;
+    height: 266px;
+    left: 19px;
+    top: 57px;
   }
 }/*# sourceMappingURL=style.css.map */
