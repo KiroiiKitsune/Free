@@ -7,7 +7,7 @@ import React from 'react'
 
 import {  NavLink } from 'react-router-dom'
 import courseData from '../../courses'
-import Polygon from '../../img/Polygon 5.png'
+
 
 
 const Course = memo(
@@ -18,7 +18,7 @@ const Course = memo(
     }, [courseData?.projectList])
 
     return (
-      <section className="main center" ref={ref}>
+      <section className="main center" id='course' ref={ref}>
         <h2 className="main-title">
           <span className="yellow-span">ОБРАЗОВАТЕЛЬНЫЕ</span> ПРОГРАММЫ
         </h2>
@@ -40,7 +40,7 @@ const Course = memo(
           ))}
         </ul>
 
-        <img className="polygon" src={Polygon} alt="" />
+       
       </section>
     )
   }),

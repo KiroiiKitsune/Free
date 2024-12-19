@@ -41,3 +41,7 @@
     transition: 0.7s;
     color: #020202;
 }
+
+.mobile-btn {
+    display: none;
+}
