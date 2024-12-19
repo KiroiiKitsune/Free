@@ -12,19 +12,27 @@ const LearnTop = ( project ) => {
           <ul className="learn-list">
             {project.project.learnListTop.map((item, index) => (
               <li key={index} className="learn-list-txt">
-                <img src={item.image} alt="Right Arrow" />
+                <img
+                  className="right-arrow"
+                  src={item.image}
+                  alt="Right Arrow"
+                />
                 {item.text}
               </li>
             ))}
           </ul>
-          {/* <ul className="learn-list">
+          <ul className="learn-list">
             {project.project.learnListTop2?.map((item, index) => (
               <li key={index} className="learn-list-txt">
-                <img src={item.image} alt="Right Arrow" />
+                <img
+                  className="right-arrow"
+                  src={item.image}
+                  alt="Right Arrow"
+                />
                 {item.text}
               </li>
             ))}
-          </ul> */}
+          </ul>
         </div>
       </div>
       <img src={Polygon} alt="" />

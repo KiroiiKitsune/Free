@@ -61,8 +61,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <img className="polygon" src={Polygon} alt="" />
       </section>
+      <img className="polygon" src={Polygon} alt="" />
       <section className="tutor cen">
         <div className="tutor-box">
           <div className="tutor-box-info">
@@ -93,7 +93,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <img src={Polygon} alt="" />
+        <img className="polygon" src={Polygon} alt="" />
       </section>
       <section className="data cen">
         <div className="data-box">
@@ -124,8 +124,9 @@ const Projects = () => {
             dangerouslySetInnerHTML={{ __html: project.dream[0].text2 }}
           ></p>
         </div>
-        <img className="polygon" src={Polygon} alt="" />
       </section>
+      <img className="polygon" src={Polygon} alt="" />
+
       <LearnTop project={project} />
       <LearnBot project={project} />
       <section className="focus cen">

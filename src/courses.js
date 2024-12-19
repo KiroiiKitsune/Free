@@ -31,16 +31,15 @@ import CommercialVideo from './img/главная произв-во видео.p
 import DirectorsWork from './img/главная работа режиссера с актером.png'
 import DialoguesInComedy from './img/главная на диалоги в комедии.png'
 
-
 export default {
   projectList: [
     //курс Основы актерского мастерства
     {
       slug: 'THE-COURSE-FUNDAMENTALS-OF-ACTING',
-      name: "КУРС “<span class='yellow-span '>ОСНОВЫ</span> АКТЕРСКОГО МАСТЕРСТВА”",
+      name: "КУРС “ОСНОВЫ <span class='yellow-span '>АКТЕРСКОГО МАСТЕРСТВА</span>”",
       txt: 'info',
       src: CreativePhotographyImg,
-      alt: 'Основы Актерского мастерства',
+      alt: 'Основы Актерского Мастерства',
       nameTutor: 'АНДРЕЙ ФИНЯГИН',
       courseInfo: [
         {
@@ -48,7 +47,9 @@ export default {
           value: '15-20 студентов',
           hourse:
             '4 занятия в месяц по 3 академических часа, всего 12 занятий и 36 академических часов',
-          start: 'с начала запуска школы',
+          start: 'весна 2025',
+          set: 'Набор курса:',
+          set1: 'с января 2025',
         },
       ],
       bgHeader: CreativePhotographyImg,
@@ -56,7 +57,7 @@ export default {
       bgCourse: Shadow,
       tutorInfo: [
         {
-          text: ' Выпускник Школы-студии при МХАТ им. А.П. Чехова<br> (курск О.Н. Ефремова). В разные годы служил в МХАТе им. Чехова, Московском театре юного зрителя, Школе драматического искусства, а также участвовал в независимых театральных проектах. <br> На его счету более 70 ролей в кино и телепроектах. Лауреат фестиваля «Островский-ФЕСТ» в номинации «Лучшая мужская роль» за моноспектакль «Иностранец», почетный деятель искусств города Москвы.',
+          text: ' Выпускник Школы-студии при МХАТ им. А.П. Чехова<br> (курск О.Н. Ефремова). В разные годы служил во МХАТе им. Чехова, Московском театре юного зрителя, Школе драматического искусства, а также участвовал в независимых театральных проектах. <br> На его счету более 70 ролей в кино и телепроектах. Лауреат фестиваля «Островский-ФЕСТ» в номинации «Лучшая мужская роль» за моноспектакль «Иностранец», почетный деятель искусств города Москвы.',
           quote:
             '«Главное качество, которым должен обладать артист для достижения успеха — это вера в свою индивидуальность и уникальность, а также обладание внутренней и внешней свободой, которые позволят ему максимально раскрыть и проявить себя».',
           imgTutor: Finygin,
@@ -65,7 +66,7 @@ export default {
       quotes:
         "Сыграй свою лучшую роль вместе с <span class='yellow-span'>FREE SUN FILM SCHOOL</span>",
       quotesTitle: 'Ты в фокусе кино!',
-      data: "Курс предоставляет <span class='yellow-span'>уникальную возможность</span> обучения у опытного актера, сыгравшего более 70 ролей, <span class='yellow-span'>овладеть ключевыми навыками</span> актерского мастерства и получить возможность работы в проектах FREE SUN PRODUCTION и других кинокомпаний.",
+      data: "Курс предоставляет <span class='yellow-span'>уникальную возможность</span> овладеть ключевыми навыками <span class='yellow-span'>актерского мастерства</span> и получить возможность работы в проектах FREE SUN PRODUCTION и других кинокомпаний.",
       dream: [
         {
           textTitle: 'ЕСЛИ ТЫ ВСЕГДА МЕЧТАЛ',
@@ -88,6 +89,8 @@ export default {
           text: 'основы сценической речи и техник дыхания',
           image: ArrowRight,
         },
+      ],
+      learnListTop2: [
         {
           text: 'принципы актерского существования в кино',
           image: ArrowRight,
@@ -107,17 +110,13 @@ export default {
           image: ArrowRight,
         },
         {
-          text: 'Работа в предлагаемых обстоятельствах',
-          image: ArrowRight,
-        },
-        {
-          text: 'Импровизация в кадре',
-          image: ArrowRight,
-        },
-        {
           text: 'Персональные консультации и менторинг от мастера курса Андрея Финягина',
           image: ArrowRight,
         },
+   
+      ],
+      learnListBot2: [
+  
         {
           text: 'Возможность участия в проектах FREE SUN PRODUCTION',
           image: ArrowRight,
@@ -200,10 +199,10 @@ export default {
     // курс основы сценарного мастерства
     {
       slug: 'thebasicsofscreenwriting',
-      name: "КУРС “<span class='yellow-span '>ОСНОВЫ</span> СЦЕНАРНОГО МАСТЕРСТВА”",
+      name: "КУРС “ОСНОВЫ <span class='yellow-span '>СЦЕНАРНОГО МАСТЕРСТВА</span>”",
       txt: 'info',
       src: ScreenwritingSkills,
-      alt: 'Основы Сценарного мастерства',
+      alt: 'Основы Сценарного Мастерства',
       nameTutor: 'АНДРЕЙ ЩЕРБИНИ',
       courseInfo: [
         {
@@ -227,21 +226,17 @@ export default {
       ],
       quotes: ' — будь в фокусе кино! Твои истории могут изменить мир!',
       quotesTitle: "<span class='yellow-span'>FREE SUN FILM SCHOOL</span>",
-      data: "Курс предоставляет <span class='yellow-span'>уникальную возможность</span> обучения у опытного актера, сыгравшего более 70 ролей, <span class='yellow-span'>овладеть ключевыми навыками</span> актерского мастерства и получить возможность работы в проектах FREE SUN PRODUCTION и других кинокомпаний.",
+      data: " Этот курс разработан мастером, который сочетает <span class='yellow-span'>опыт сценариста и режиссера</span>, передавая знания и практические инструменты, чтобы <span class='yellow-span'>твои идеи воплотились</span> на экране с профессиональной точностью.",
       dream: [
         {
-          textTitle: 'ЕЕСЛИ ТЫ ЧУВСТВУЕШЬ',
+          textTitle: 'ЕСЛИ ТЫ МЕЧТАЕШЬ',
           text1:
-            "оказаться на съемочной площадке и получить роль в кино, но чувствуешь недостаток профессионализма — <span class='yellow-span '>этот курс поможет раскрыть твой потенциал</span> ",
+            "создавать <span class='yellow-span '>сценарии</span>, но теряешься в поисках начала, если вдохновение ускользает, а история не складывается, наш курс поможет обрести уверенность, научит формировать и <span class='yellow-span '>воплощать идеи</span>, превращая их в сюжеты, которые захватят сердца зрителей  ",
           text2:
-            " развитие ключевых актерских навыков, включая внутреннюю и внешнюю свободу, способность к импровизации, работу с голосом, речью <br> и художественным текстом. Курс ориентирован на начинающих актеров <br /> и профессионалов, стремящихся <span class='yellow-span' >повысить свою квалификацию</span> <br> и <span class='yellow-span' >перейти на новый уровень</span> в кино.",
+            "вооружить тебя инструментами для создания уникальных сценариев от идеи до полноценной истории, которая захватит зрителя и останется с ним надолго<span class='yellow-span' ></span>.",
         },
       ],
       learnListTop: [
-        {
-          text: 'Различия между драматургом и сценаристом',
-          image: ArrowRight,
-        },
         {
           text: 'Поиск и формулировка идеи: логлайн, заявка, синопсис',
           image: ArrowRight,
@@ -251,6 +246,16 @@ export default {
           image: ArrowRight,
         },
         {
+          text: 'Конфликты и их виды: внутренние, внешние, межличностные',
+          image: ArrowRight,
+        },
+        {
+          text: 'Законы жанра и их смешение',
+          image: ArrowRight,
+        },
+      ],
+      learnListTop2: [
+        {
           text: 'Создание ярких сцен и эпизодов',
           image: ArrowRight,
         },
@@ -258,30 +263,16 @@ export default {
           text: 'Структура сценария: экспозиция, развитие действия, кульминация, финал',
           image: ArrowRight,
         },
-      ],
-
-      learnListTop2: [
-        {
-          text: 'Конфликты и их виды: внутренние, внешние, межличностные',
-          image: ArrowRight,
-        },
         {
           text: 'Разработка персонажа: создание героя и его мотивации',
-          image: ArrowRight,
-        },
-        {
-          text: 'Законы жанра и их смешение',
           image: ArrowRight,
         },
         {
           text: 'Драматическое действие и альтернативные подходы к повествованию',
           image: ArrowRight,
         },
-        {
-          text: 'Создание выразительных образов и символов в сценарии',
-          image: ArrowRight,
-        },
       ],
+
       learnListBot: [
         {
           text: 'Практический опыт написания сценариев',
@@ -295,6 +286,8 @@ export default {
           text: 'Портфолио с готовыми проектами',
           image: ArrowRight,
         },
+      ],
+      learnListBot2: [
         {
           text: 'Знания в области монтажа, операторского и актерского мастерства',
           image: ArrowRight,
@@ -380,10 +373,10 @@ export default {
     //курс история кино братьв Люмьер
     {
       slug: 'thehistoryofcinema.',
-      name: "КУРС “<span class='yellow-span '>ИСТОРИЯ КИНО</span><br> ОТ БРАТЬЕВ ЛЮМЬЕР <br>До XXI ВЕКА”",
+      name: "КУРС “<span class='yellow-span '>ИСТОРИЯ КИНО</span><br> ОТ БРАТЬЕВ ЛЮМЬЕР <br>ДО XXI ВЕКА”",
       txt: 'info',
       src: HistoryFilm,
-      alt: 'История кино от братьев Люмьер До XXI Века',
+      alt: 'История кино от братьев Люмьер до XXI века',
       nameTutor: 'ОЛЕГ ГРОЗНОВ',
       courseInfo: [
         {
@@ -427,6 +420,8 @@ export default {
           text: 'Вклад ключевых режиссеров в кинематограф',
           image: ArrowRight,
         },
+      ],
+      learnListTop2: [
         {
           text: 'Технологические и индустриальные изменения в кино',
           image: ArrowRight,
@@ -445,6 +440,8 @@ export default {
           text: 'Практический опыт анализа и интерпретации фильмов',
           image: ArrowRight,
         },
+      ],
+      learnListBot2: [
         {
           text: 'Консультации и менторинг от эксперта',
           image: ArrowRight,
@@ -555,6 +552,8 @@ export default {
           text: 'Основы операторских приемов',
           image: ArrowRight,
         },
+      ],
+      learnListTop2: [
         {
           text: 'Роль монтажных ходов и звукоряда',
           image: ArrowRight,
@@ -566,13 +565,15 @@ export default {
       ],
       learnListBot: [
         {
-          text: 'Глубокое понимание кино как сложного визуального текста',
+          text: 'Возможность участвовать в обсуждениях и делиться своими впечатлениями',
           image: ArrowRight,
         },
         {
-          text: 'Навыки критического анализа фильмов',
+          text: 'Доступ к эксклюзивным материалам и рекомендациям от Олега Грознова',
           image: ArrowRight,
         },
+      ],
+      learnListBot2: [
         {
           text: 'Возможность участвовать в обсуждениях и делиться своими впечатлениями',
           image: ArrowRight,
@@ -616,10 +617,10 @@ export default {
     // курс Производство коммерческого (рекламного) видео
     {
       slug: 'commercialvideoproduction',
-      name: "<span class='yellow-span '>ПРОИЗВОДСТВО КОММЕРЧЕСКОГО ВИДЕО И РЕКЛАМЫ</span>",
+      name: "<span class='yellow-span '>ПРОИЗВОДСТВО</span> КОММЕРЧЕСКОГО ВИДЕО И РЕКЛАМЫ",
       txt: 'info',
       src: CommercialVideo,
-      alt: 'КУРС Производство коммерческого (рекламного) видео',
+      alt: 'Производство коммерческого видео и рекламы',
       nameTutor: 'АНАСТАСИЯ БАЛАЙКИНА',
       courseInfo: [
         {
@@ -669,6 +670,8 @@ export default {
           text: 'Актуальные рекламные форматы, креативные тренды и их влияние на проекты',
           image: ArrowRight,
         },
+      ],
+      learnListTop2: [
         {
           text: 'Как правильно подбирать режиссера, оператора и творческую команду',
           image: ArrowRight,
@@ -682,6 +685,7 @@ export default {
           image: ArrowRight,
         },
       ],
+
       learnListBot: [
         {
           text: 'Практический опыт работы над реальными рекламными проектами',
@@ -695,6 +699,8 @@ export default {
           text: 'Навыки взаимодействия с режиссерами, операторами и кастинг-директорами',
           image: ArrowRight,
         },
+      ],
+      learnListBot2: [
         {
           text: 'Понимание бюджетирования и защиты бюджета перед клиентом',
           image: ArrowRight,
@@ -773,7 +779,7 @@ export default {
     // курс Киножанры
     {
       slug: 'moviegenres',
-      name: "КУРС <br>“<span class='yellow-span '>КИНОЖАНРЫ</span> ”",
+      name: "КУРС <br><span class='yellow-span '>КИНОЖАНРЫ</span>",
       txt: 'info',
       src: MovieGenres,
       alt: 'Киножанры',
@@ -822,6 +828,8 @@ export default {
           text: 'Консультации и менторинг от профессионалов киноиндустрии',
           image: ArrowRight,
         },
+      ],
+      learnListBot2: [
         {
           text: 'Портфолио с завершенными проектами',
           image: ArrowRight,
@@ -845,6 +853,8 @@ export default {
           text: 'Особенности кастинга для разных жанров',
           image: ArrowRight,
         },
+      ],
+      learnListTop2: [
         {
           text: 'Работа художника-постановщика и оператора в жанровом кино',
           image: ArrowRight,
@@ -939,7 +949,7 @@ export default {
     //Особенности создания киносценария к жанровому кинофильму
     {
       slug: 'featuresofcreatingascreenplayforagenremovie',
-      name: "КУРС “<span class='yellow-span '>ОСОБЕННОСТИ СОЗДАНИЯ</span> КИНОСЦЕНАРИЯ К ЖАНРОВОМУ ФИЛЬМУ”",
+      name: "КУРС <span class='yellow-span '>ОСОБЕННОСТИ СОЗДАНИЯ</span> КИНОСЦЕНАРИЯ К ЖАНРОВОМУ ФИЛЬМУ",
       txt: 'info',
       src: CreatingAScreenplay,
       alt: 'Особенности создания киносценария к жанровому кинофильму',
@@ -991,6 +1001,8 @@ export default {
           text: 'Портфолио с готовыми жанровыми проектами',
           image: ArrowRight,
         },
+      ],
+      learnListBot2: [
         {
           text: 'Понимание ключевых принципов создания успешных комедий,трагедий,мелодрам, триллеров  и др.',
           image: ArrowRight,
@@ -1014,6 +1026,8 @@ export default {
           text: 'Законы жанра: комедия и трагедия',
           image: ArrowRight,
         },
+      ],
+      learnListTop2: [
         {
           text: 'Разработка сценариев для комедии и трагедии',
           image: ArrowRight,
@@ -1090,7 +1104,7 @@ export default {
     //Работа режиссера с актером “Правила игры”
     {
       slug: 'thedirectorsworkwiththeactorrulesofthegame',
-      name: "КУРС РАБОТА РЕЖИССЕРА С АКТЕРОМ <br>“<span class='yellow-span '>ПРАВИЛА ИГРЫ</span>”. ",
+      name: "КУРС РАБОТА РЕЖИССЕРА С АКТЕРОМ <br><span class='yellow-span '>ПРАВИЛА ИГРЫ</span> ",
       txt: 'info',
       src: DirectorsWork,
       alt: 'Работа режиссера с актером “Правила игры”',
@@ -1144,6 +1158,8 @@ export default {
           text: 'Навыки работы с актерами на всех этапах производства',
           image: ArrowRight,
         },
+      ],
+      learnListBot2: [
         {
           text: 'Опыт работы с документацией, необходимой для съемочного процесса',
           image: ArrowRight,
@@ -1167,6 +1183,8 @@ export default {
           text: 'Научишься проводить и проходить кинопробы',
           image: ArrowRight,
         },
+      ],
+      learnListTop2: [
         {
           text: 'Как формируется съёмочная группа, и каковы ее ключевые задачи на этапе pre-production',
           image: ArrowRight,
@@ -1282,7 +1300,7 @@ export default {
     //Диалоги в комедии
     {
       slug: 'Dialoguesincomedy',
-      name: "КУРС ДИАЛОГИ В <br>“<span class='yellow-span '>КОИЕДИИ</span>”. ",
+      name: "КУРС ДИАЛОГИ<br> В <span class='yellow-span '>КОМЕДИИ</span> ",
       txt: 'info',
       src: DialoguesInComedy,
       alt: 'Диалоги в комедии',
@@ -1335,6 +1353,8 @@ export default {
           text: 'Значение первых сцен и как они задают тон всему произведению',
           image: ArrowRight,
         },
+      ],
+      learnListTop2: [
         {
           text: 'Как использовать аттракционы и поэпизодники для усиления сцен',
           image: ArrowRight,
@@ -1357,6 +1377,8 @@ export default {
           text: 'Понимание работы с поэпизодниками и как правильно их интерпретировать',
           image: ArrowRight,
         },
+      ],
+      learnListBot2: [
         {
           text: 'Возможность создавать сценарии, которые соответствуют запросам режиссёров и продакшн-команд',
           image: ArrowRight,
