@@ -1,6 +1,6 @@
 .main {
   
-    margin-top: 150vh;
+    margin-top: 165vh;
 }
 
 .main-title {
@@ -12,7 +12,7 @@
 }
 
 .main-box {
-    padding: 248px 49px;
+    padding: 160px 49px;
     display: flex;
     flex-wrap: wrap;
     gap: 59px 44px;

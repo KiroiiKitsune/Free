@@ -14,7 +14,7 @@ const Navbar = () => {
   const scrollToContactsFunc = ScrollToContacts()
 
   return (
-    <header className="header" ref={navbarRef}>
+    <header className="header center" ref={navbarRef}>
       <NavLink to="/">
         <img className="header-logo" src={LogoTop} alt="" />
       </NavLink>
