@@ -150,8 +150,8 @@ const InfoSchool = () => {
             </div>
           </li>
         </ul>
+        <img className="polygon" src={Polygon} alt="" />
       </section>
-      <img className="polygon" src={Polygon} alt="" />
 
       <section className="concept center">
         <div className="concept-box">
@@ -184,8 +184,8 @@ const InfoSchool = () => {
             <p className="concept-wrap-txt concept-wrap-txt-4">Киножанры</p>
           </div>
         </div>
+        <img className="polygon" src={Polygon} alt="" />
       </section>
-      <img className="polygon" src={Polygon} alt="" />
     </>
   )
 }

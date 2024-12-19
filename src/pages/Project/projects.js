@@ -29,7 +29,7 @@ const Projects = () => {
   }
   return (
     <>
-      <section className="course cen">
+      <section className="course cent">
         <div
           className="course-title"
           dangerouslySetInnerHTML={{ __html: project.name }}
@@ -61,9 +61,10 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        <img className="polygon" src={Polygon} alt="" />
       </section>
-      <img className="polygon" src={Polygon} alt="" />
-      <section className="tutor cen">
+
+      <section className="tutor cent">
         <div className="tutor-box">
           <div className="tutor-box-info">
             <div className="tutor-info">
@@ -95,7 +96,7 @@ const Projects = () => {
         </div>
         <img className="polygon" src={Polygon} alt="" />
       </section>
-      <section className="data cen">
+      <section className="data cent">
         <div className="data-box">
           <p
             className="data-txt"
@@ -103,7 +104,7 @@ const Projects = () => {
           ></p>
         </div>
       </section>
-      <section className="dream cen">
+      <section className="dream cent">
         <div
           className="dream-bg"
           style={{ backgroundImage: `url(${project.bg})` }}
@@ -124,12 +125,12 @@ const Projects = () => {
             dangerouslySetInnerHTML={{ __html: project.dream[0].text2 }}
           ></p>
         </div>
+        <img className="polygon" src={Polygon} alt="" />
       </section>
-      <img className="polygon" src={Polygon} alt="" />
 
       <LearnTop project={project} />
       <LearnBot project={project} />
-      <section className="focus cen">
+      <section className="focus cent">
         <h2
           className="focus-kino"
           dangerouslySetInnerHTML={{ __html: project.quotesTitle }}
@@ -139,7 +140,7 @@ const Projects = () => {
           dangerouslySetInnerHTML={{ __html: project.quotes }}
         ></h2>
       </section>
-      <section className="scheme cen">
+      <section className="scheme cent">
         <div className="scheme-bg ">
           <div className="scheme-box">
             <div>

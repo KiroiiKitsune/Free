@@ -4,7 +4,7 @@ import Polygon from '../../img/Polygon 5.png'
 const LearnBot = (project) => {
   return (
     <>
-      <section className="learn cen">
+      <section className="learn cent">
         <div className="learn-box ">
           <h3 className="learn-title">
             Что ты{' '}

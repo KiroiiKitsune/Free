@@ -1,5 +1,13 @@
-@media (min-width: 1440px) and (max-width: 1919px) {
+@media  (max-width: 2800px) {
+   .main {
+    margin-top: 93vh;
+  }
+}
+
+
+@media (min-width: 1440px) and (max-width: 1920px) {
   .header {
+    padding: 20px 50px;
     width: 100%;
     justify-content: space-between;
   }
@@ -57,7 +65,7 @@
 
   .main {
     width: 100%;
-    margin-top: 150vh;
+    margin-top: 100vh;
   }
   .main-title {
     margin-left: 100px;
@@ -129,87 +137,215 @@
 @media (max-width: 1024px) {
   .header {
     justify-content: space-between;
-    width: 220%;
+    padding: 25px 50px 0;
+  }
+
+  .header-logo {
+    width: 150px;
+  }
+
+  .header-btn {
+    font-size: 11px;
+    line-height: 17px;
+    width: 157px;
+    height: 45px;
   }
 
   .nav-list {
-    margin-left: 53px;
-    margin-right: 91px;
-    width: 1200px;
-    font-size: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 9px;
+    width: 534px;
   }
 
   .top {
-    width: 220%;
+    height: 1047px;
+    background-position: -17%;
+  }
+
+  .top-content {
+    margin-top: 220px;
+    padding: 0 50px;
   }
 
   .top-content-text {
-    font-size: 21px;
+    font-size: 9px;
+    width: 749px;
+    line-height: 19px;
+  }
+
+  .top-content-slogan {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+
+  .top-content-title {
+    font-size: 47px;
+    line-height: 51px;
+    width: 389px;
+  }
+
+  .top-content-btn {
+    width: 227px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 6px;
+    letter-spacing: 2px;
+    margin-bottom: 87px;
   }
 
   .main {
-    width: 220%;
-    margin-top: 1358px;
+    padding: 0 50px;
+    margin-top: 1040px;
   }
 
   .main-title {
-    margin-left: 378px;
-    font-size: 53px;
+    font-size: 35px;
+    width: 728px;
   }
 
   .main-box {
-    gap: 42px 64px;
-    padding: 120px 404px;
+    gap: 27px 22px;
+    padding: 19px 32px;
   }
 
   .main-box-cur {
-    width: 437px;
-    height: 268px;
+    width: 418px;
+  }
+
+  .main-img-orig {
+    width: 418px;
+    height: 264px;
+  }
+
+  .main-box-text {
+    font-size: 15px;
+    line-height: 22px;
   }
 
   .polygon {
-    margin-left: 365px;
-    width: 35px;
+    margin-left: 50px;
+    width: 18px;
   }
 
   .polygon-top {
-    height: 29px;
-    width: fit-content;
-    margin-left: 0px;
+    margin-left: 50px;
+    width: 18px;
   }
 
   .form {
-    width: 220%;
+    padding: 0 50px;
+  }
+
+  .form-text {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 61px;
+    width: 700px;
   }
 
   .form-pol {
-    font-size: 25px;
+    width: 625px;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .form-box {
+    gap: 40px;
+    padding: 60px 0 60px;
+  }
+
+  .form-box-data {
+    width: 859px;
+    height: 60px;
+  }
+
+  .form-btn {
+    width: 283px;
+    height: 60px;
   }
 
   .footer {
-    width: 220%;
     padding: 0 20px;
   }
+
+  .fooret-img {
+    height: 145px;
+    width: 100px;
+  }
+
   .footer-box {
     display: flex;
-    margin-left: 50px;
     justify-content: space-between;
   }
 
   .footer-icon {
-    margin-right: 50px;
   }
 
   .footer-log {
-    margin: 28px 50px 70px;
+    margin: 28px 0 70px;
   }
 
   .footer-info-txt {
-    font-size: 16px;
+    font-size: 9px;
+    font-size: 11px;
+  }
+
+  .footer-info-box {
+    gap: 14px;
   }
 
   .footer-num {
-    margin-right: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+
+  .footer-icon-img {
+    width: 50px;
+  }
+}
+
+@media (min-width: 840px) and (max-width: 960px) {
+  .header-logo {
+    width: 114px;
+  }
+
+  .header-btn {
+    font-size: 9px;
+    line-height: 17px;
+    width: 139px;
+    height: 34px;
+  }
+  .nav-list {
+    font-size: 8px;
+    width: 447px;
+  }
+
+  .main-img-orig {
+    width: 337px;
+    height: 211px;
+  }
+
+  .main-box-cur {
+    height: 214px;
+    width: 338px;
+  }
+  .main-box {
+    gap: 15px 15px;
+  }
+
+  .form-box-data {
+    width: 715px;
+  }
+
+  .footer-info-txt {
+    font-size: 8px;
+  }
+  .fooret-img {
+    width: 96px;
+    height: 152px;
   }
 }
 
@@ -450,8 +586,6 @@
   }
 
   .footer-log {
-    width: 96%;
-    margin-left: 15px;
     flex-direction: column;
   }
 
@@ -464,6 +598,9 @@
 }
 
 @media (max-width: 500px) {
+  .header {
+    padding: 20px 20px;
+  }
   .top {
     background-size: 680px 736px;
     height: 735px;
@@ -524,13 +661,12 @@
   }
 
   .footer-log {
-    width: 335px;
-    margin-left: 20px;
     flex-direction: column;
   }
 
   .main-title {
     font-size: 28px;
+    width: 300px;
   }
 
   .footer-info {

@@ -9,8 +9,8 @@ import Polygon from '../../img/Polygon 5.png'
 const Home = () => {
   return (
     <>
-      <section className="top">
-        <section className="top-content  center">
+      <section className="top center">
+        <section className="top-content  ">
           <h1 className="top-content-title">
             <span className="yellow-span">FREE SUN</span> FILM SCHOOL
           </h1>
@@ -39,7 +39,7 @@ const Home = () => {
         <img className="polygon-top polygon  center" src={Polygon} alt="" />
       </section>
       <Course courseData={CourseData} />
-      <img className="polygon" src={Polygon} alt="" />
+     
       <Form />
     </>
   )
