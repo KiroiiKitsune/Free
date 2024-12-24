@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Free/static/css/main.2ab2f53d.css",
-    "main.js": "/Free/static/js/main.12d75205.js",
+    "main.css": "/Free/static/css/main.5f722e35.css",
+    "main.js": "/Free/static/js/main.91ebfc6c.js",
     "static/media/главная произв-во видео.png": "/Free/static/media/главная произв-во видео.7c3cae3b5fdf6abc6294.png",
     "static/media/Cinema-club1.png": "/Free/static/media/Cinema-club1.15886e7d1437f49f35f1.png",
     "static/media/Новикова.jpg": "/Free/static/media/Новикова.7506eedcd2dee05e6151.jpg",
@@ -26,14 +26,17 @@
     "static/media/Cinema-club.png": "/Free/static/media/Cinema-club.c94b01300d3b9fd9cc94.png",
     "static/media/histori-films2.png": "/Free/static/media/histori-films2.3fe301b6a6ca21e01504.png",
     "static/media/kal-visuals-kJklJAcwqLk-unsplash 1.png": "/Free/static/media/kal-visuals-kJklJAcwqLk-unsplash 1.fdd37be282afb28a9182.png",
+    "static/media/austrian-national-library-unviuHdtKPA-unsplash 1.png": "/Free/static/media/austrian-national-library-unviuHdtKPA-unsplash 1.de4f21af2f3bc263d9bc.png",
     "static/media/jakob.png": "/Free/static/media/jakob.d35b7c2e621fd73d0b39.png",
     "static/media/Creative Photography.png": "/Free/static/media/Creative Photography.1bb58c336e255c3bacdd.png",
+    "static/media/Plenka.png": "/Free/static/media/Plenka.d3145dbfa46fe34a8ad5.png",
     "static/media/Nostalgic 3D Cinema Experience, circa 1950s 1.png": "/Free/static/media/Nostalgic 3D Cinema Experience, circa 1950s 1.ab40aa875ab3e2bbc307.png",
     "static/media/logofoot.png": "/Free/static/media/logofoot.5ade315c4d1fceff9687.png",
     "static/media/Истори кино.png": "/Free/static/media/Истори кино.8742f52b16850a3747db.png",
     "static/media/Creative Collaboration in Design Studio 1.png": "/Free/static/media/Creative Collaboration in Design Studio 1.94d5297a12d3a587dafc.png",
     "static/media/основы сценарного.png": "/Free/static/media/основы сценарного.a7fcb2f3faabd77cbd26.png",
     "static/media/Creative Photography Studio Scene 2.png": "/Free/static/media/Creative Photography Studio Scene 2.894295940e4eb36eaa85.png",
+    "static/media/pngwing.com (15) 1.png": "/Free/static/media/pngwing.com (15) 1.333ab79ffa0a6bcaba1c.png",
     "static/media/KAUFMANN.TTF": "/Free/static/media/KAUFMANN.933919753fd330341451.TTF",
     "static/media/тень.png": "/Free/static/media/тень.c63a4a6a74d1723003e4.png",
     "static/media/Rectangle (1).png": "/Free/static/media/Rectangle (1).9d16d5a83eff69d27a9d.png",
@@ -50,11 +53,11 @@
     "static/media/GothamPro-Black.woff2": "/Free/static/media/GothamPro-Black.7ed52d1381d16affbaa7.woff2",
     "static/media/icons8-check.svg": "/Free/static/media/icons8-check.85d39173aa16206bdd0e.svg",
     "index.html": "/Free/index.html",
-    "main.2ab2f53d.css.map": "/Free/static/css/main.2ab2f53d.css.map",
-    "main.12d75205.js.map": "/Free/static/js/main.12d75205.js.map"
+    "main.5f722e35.css.map": "/Free/static/css/main.5f722e35.css.map",
+    "main.91ebfc6c.js.map": "/Free/static/js/main.91ebfc6c.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ab2f53d.css",
-    "static/js/main.12d75205.js"
+    "static/css/main.5f722e35.css",
+    "static/js/main.91ebfc6c.js"
   ]
 }
