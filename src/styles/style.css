@@ -357,7 +357,7 @@ a {
   }
   .mobile-btn {
     display: block;
-    position: fixed;
+    position: absolute;
     right: 40px;
     top: 28px;
     cursor: pointer;
@@ -612,6 +612,7 @@ a {
   }
   .top-content {
     margin-top: 90px;
+    padding: 0;
   }
   .top-content-title {
     margin-right: 92px;

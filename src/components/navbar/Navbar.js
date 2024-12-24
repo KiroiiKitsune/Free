@@ -16,53 +16,58 @@ const Navbar = () => {
   const scrollToContactsFunc = ScrollToContacts()
 
   const [nav, setNav] = useState(false)
+  const scrollTargetIdRef = useRef(null)
 
-    const handleNavLinkClick = (targetPath, targetId) => {
-      setNav(false)
+  const handleNavLinkClick = (targetPath, targetId) => {
+    scrollTargetIdRef.current = targetId
+    setNav(false)
 
+    if (targetPath && targetPath !== location.pathname) {
+      navigate(targetPath)
+    }
+    if (targetPath === location.pathname) {
       if (targetId) {
-        sessionStorage.setItem('scrollTargetId', targetId)
-      } else {
-        sessionStorage.removeItem('scrollTargetId')
-      }
-      if (targetPath && targetPath !== location.pathname) {
-        navigate(targetPath)
-      } else if (targetId) {
-        const targetElement = document.getElementById(targetId)
-        if (targetElement) {
-          window.scrollTo({
-            top: targetElement.offsetTop,
-            behavior: 'smooth',
-          })
-        }
+        setTimeout(() => {
+          handleScrollToId(targetId)
+        }, 0)
       }
     }
-    useEffect(() => {
-      if (nav) {
-        document.body.style.height = '100%'
-        document.body.style.overflow = 'hidden'
-        document.body.style.position = 'fixed'
-        document.body.style.width = '100%'
-      } else {
-        document.body.style.height = ''
-        document.body.style.overflow = ''
-        document.body.style.position = ''
-        document.body.style.width = ''
+  }
+
+  const handleScrollToId = (targetId) => {
+    const targetElement = document.getElementById(targetId)
+    if (targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop,
+        behavior: 'smooth',
+      })
+    }
+  }
+  useEffect(() => {
+    if (scrollTargetIdRef.current) {
+      const targetId = scrollTargetIdRef.current
+      scrollTargetIdRef.current = null
+      if (location.pathname === '/Home') {
+        setTimeout(() => {
+          handleScrollToId(targetId)
+        }, 0)
       }
-    }, [nav])
-    useEffect(() => {
-      const targetId = sessionStorage.getItem('scrollTargetId')
-      if (targetId) {
-        const targetElement = document.getElementById(targetId)
-        if (targetElement) {
-          window.scrollTo({
-            top: targetElement.offsetTop,
-            behavior: 'smooth',
-          })
-          sessionStorage.removeItem('scrollTargetId')
-        }
-      }
-    }, [location.pathname, location.hash])
+    }
+  }, [location.pathname])
+
+  useEffect(() => {
+    if (nav) {
+      document.body.style.height = '100%'
+      document.body.style.overflow = 'hidden'
+      document.body.style.position = 'fixed'
+      document.body.style.width = '100%'
+    } else {
+      document.body.style.height = ''
+      document.body.style.overflow = ''
+      document.body.style.position = ''
+      document.body.style.width = ''
+    }
+  }, [nav])
 
   return (
     <header className="header" ref={navbarRef}>

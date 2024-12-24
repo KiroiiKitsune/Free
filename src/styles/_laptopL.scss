@@ -285,9 +285,6 @@
     justify-content: space-between;
   }
 
-  .footer-icon {
-  }
-
   .footer-log {
     margin: 28px 0 70px;
   }
@@ -368,7 +365,7 @@
 
   .mobile-btn {
     display: block;
-    position: fixed;
+    position: absolute;
     right: 40px;
     top: 28px;
     cursor: pointer;
@@ -670,6 +667,7 @@
 
   .top-content {
     margin-top: 90px;
+    padding: 0;
   }
 
   .top-content-title {
