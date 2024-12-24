@@ -14,7 +14,7 @@ import Footer from './components/footer/Footer'
 import BackToTopButton from './Helper/scroll/BackToTopButton'
 import './styles/style.css'
 import InfoSchool from './pages/InfoSchool/InfoSchool'
-import ScrollToTop from './utils/ScrolToToppage'
+import ScrollToTop from './utils/ScrollToTopPages'
 import ClubFreeSun from './pages/ClubFreeSun/ClubFreeSun'
 import GoldBonus from './pages/GoldBonus/GoldBonus'
 
