@@ -23,20 +23,20 @@ function App() {
     <div className="App">
       <Router>
         <ScrollToTop />
-        
+
         <Navbar />
 
         <Routes>
           <Route path="/" element={<Navigate to="/Home" replace />} />
           {/* <Route path="/" element={<Navigate to="/home" replace />} /> */}
           <Route path="/Home" element={<Home />} />
-          <Route path="/projects/:slug" element={<CourseDetails />} />
+          <Route path="/projects/:slug" element={<CourseDetails replace />} />
           <Route
             path="/information-about-the-school"
-            element={<InfoSchool />}
+            element={<InfoSchool replace />}
           />
-          <Route path="/Club-Free-Sun" element={<ClubFreeSun/>}/>
-          <Route path='/Gold-Bonus' element={<GoldBonus/>}/>
+          <Route path="/Club-Free-Sun" element={<ClubFreeSun replace />} />
+          <Route path="/Gold-Bonus" element={<GoldBonus replace />} />
           <Route path="*" element={<Home />} />
         </Routes>
 
