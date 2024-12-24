@@ -1,0 +1,232 @@
+@media (max-width: 1024px) {
+  .center {
+    padding: 0 65px;
+  }
+
+  .club-title {
+    font-size: 35px;
+    margin-bottom: 39px;
+    margin-top: 15px;
+  }
+
+  .club-conteiner {
+    display: flex;
+    gap: 32px;
+    flex-direction: row;
+  }
+
+  .club-box,
+  .club-concept {
+    height: auto;
+    padding: 25px;
+  }
+
+  .club-philosophy-title,
+  .club-conditions-title,
+  .club-concept-title {
+    font-size: 32px;
+    line-height: 28px;
+    margin-bottom: 30px;
+  }
+
+  .club-philosophy-txt,
+  .club-conditions-txt,
+  .club-concept-txt {
+    font-size: 17px;
+    line-height: 29px;
+  }
+
+  .slogal {
+    margin-top: 90px;
+  }
+
+  .slogan-txt {
+    font-size: 22px;
+    line-height: 32px;
+    padding: 0 25px;
+  }
+
+  .role {
+    width: auto;
+    height: 500px;
+    padding: 0 25px;
+  }
+
+  .role-title {
+    font-size: 22px;
+    line-height: 40px;
+  }
+
+  .role-txt {
+    margin-top: 12px;
+    font-size: 17px;
+    line-height: 98%;
+  }
+
+  .role-container {
+    padding-top: 92px;
+    flex-direction: row;
+  }
+
+  .role-container-1,
+  .role-container-2,
+  .role-container-3 {
+    width: 308px;
+    height: 308px;
+    padding: 25px;
+  }
+
+  .free {
+    padding: 0 25px;
+  }
+
+  .free-sun {
+    text-align: center;
+    font-size: 23px;
+    line-height: 35px;
+  }
+
+  .free-kino {
+    text-align: center;
+    font-size: 22px;
+    line-height: 45px;
+    margin-right: 0;
+    z-index: 1;
+  }
+
+  .free-img {
+    width: 257px;
+    left: 0px;
+    top: 259px;
+  }
+}
+
+@media (max-width: 768px) {
+  .center {
+    padding: 0 25px;
+  }
+
+  .club-title {
+    font-size: 30px;
+    margin-bottom: 39px;
+    margin-top: 15px;
+  }
+
+  .club-conteiner {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+  }
+
+  .club-box,
+  .club-concept {
+    width: auto;
+    height: auto;
+    padding: 25px;
+  }
+
+  .club-philosophy-title,
+  .club-conditions-title,
+  .club-concept-title {
+    text-align: center;
+    font-size: 32px;
+    line-height: 28px;
+    margin-bottom: 30px;
+  }
+
+  .club-philosophy-txt,
+  .club-conditions-txt,
+  .club-concept-txt {
+    text-align: center;
+    font-size: 15px;
+    line-height: 29px;
+  }
+
+  .slogal {
+    margin-top: 90px;
+  }
+
+  .slogan-txt {
+    font-size: 16px;
+    line-height: 27px;
+    padding: 0;
+  }
+
+  .role {
+    width: auto;
+    height: 1111px;
+    padding: 0 25px;
+  }
+
+  .role-title {
+    font-size: 23px;
+    line-height: 40px;
+  }
+
+  .role-txt {
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 123%;
+  }
+
+  .role-container {
+    padding-top: 201px;
+    flex-direction: column;
+  }
+
+  .role-container-1,
+  .role-container-2,
+  .role-container-3 {
+    width: auto;
+    height: 233px;
+    padding: 25px;
+  }
+
+  .free {
+    padding: 0 25px;
+  }
+
+  .free-sun {
+    text-align: center;
+    font-size: 23px;
+    line-height: 35px;
+  }
+
+  .free-kino {
+    text-align: center;
+    font-size: 22px;
+    line-height: 45px;
+    margin-right: 0;
+    z-index: 1;
+  }
+
+  .free-img {
+    width: 257px;
+    left: 0px;
+    top: 259px;
+  }
+}
+
+@media (max-width: 500px) {
+  .club-philosophy-title,
+  .club-conditions-title,
+  .club-concept-title {
+    font-size: 29px;
+  }
+
+  .club-philosophy-txt,
+  .club-conditions-txt,
+  .club-concept-txt {
+    font-size: 14px;
+  }
+
+  .role {
+    height: 1550px;
+  }
+
+  .role-container-1,
+  .role-container-2,
+  .role-container-3 {
+    height: 373px;
+  }
+}

@@ -15,6 +15,8 @@ import BackToTopButton from './Helper/scroll/BackToTopButton'
 import './styles/style.css'
 import InfoSchool from './pages/InfoSchool/InfoSchool'
 import ScrollToTop from './utils/ScrolToToppage'
+import ClubFreeSun from './pages/ClubFreeSun/ClubFreeSun'
+import GoldBonus from './pages/GoldBonus/GoldBonus'
 
 function App() {
   return (
@@ -24,15 +26,17 @@ function App() {
         <Navbar />
 
         <Routes>
-          <Route path="/" element={<Navigate to="/home" replace />} />
+          <Route path="/" element={<Navigate to="/Home" replace />} />
           {/* <Route path="/" element={<Navigate to="/home" replace />} /> */}
           <Route path="/Home" element={<Home />} />
           <Route path="/projects/:slug" element={<CourseDetails />} />
           <Route
             path="/information-about-the-school"
             element={<InfoSchool />}
-          ></Route>
-          <Route path="*" element={<Home/>} />
+          />
+          <Route path="/Club-Free-Sun" element={<ClubFreeSun/>}/>
+          <Route path='/Gold-Bonus' element={<GoldBonus/>}/>
+          <Route path="*" element={<Home />} />
         </Routes>
 
         <BackToTopButton />

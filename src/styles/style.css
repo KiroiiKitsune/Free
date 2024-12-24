@@ -357,13 +357,14 @@ a {
   }
   .mobile-btn {
     display: block;
-    position: absolute;
+    position: fixed;
     right: 40px;
     top: 28px;
     cursor: pointer;
     z-index: 10;
   }
   .nav-list {
+    overflow: hidden;
     width: auto;
     flex-direction: column;
     align-items: center;
@@ -608,6 +609,9 @@ a {
     padding: 43px 20px;
     flex-direction: column;
     align-items: center;
+  }
+  .top-content {
+    margin-top: 90px;
   }
   .top-content-title {
     margin-right: 92px;
