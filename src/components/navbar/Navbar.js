@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 
 import './style.css'
 import LogoTop from './../../img/лого.png'
@@ -17,32 +17,56 @@ const Navbar = () => {
 
   const [nav, setNav] = useState(false)
 
-  const handleNavLinkClick = (targetPath, targetId) => {
-    setNav(false)
+    const handleNavLinkClick = (targetPath, targetId) => {
+      setNav(false)
 
-    // Сохраняем targetId в sessionStorage
-    if (targetId) {
-      sessionStorage.setItem('scrollTargetId', targetId)
-    } else {
-      sessionStorage.removeItem('scrollTargetId')
-    }
-    // Переходим на главную страницу если нужно
-    if (targetPath && targetPath !== location.pathname) {
-      navigate(targetPath)
-    } else if (targetId) {
-      const targetElement = document.getElementById(targetId)
-      if (targetElement) {
-        window.scrollTo({
-          top: targetElement.offsetTop,
-          behavior: 'smooth',
-        })
+      if (targetId) {
+        sessionStorage.setItem('scrollTargetId', targetId)
+      } else {
+        sessionStorage.removeItem('scrollTargetId')
+      }
+      if (targetPath && targetPath !== location.pathname) {
+        navigate(targetPath)
+      } else if (targetId) {
+        const targetElement = document.getElementById(targetId)
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop,
+            behavior: 'smooth',
+          })
+        }
       }
     }
-  }
+    useEffect(() => {
+      if (nav) {
+        document.body.style.height = '100%'
+        document.body.style.overflow = 'hidden'
+        document.body.style.position = 'fixed'
+        document.body.style.width = '100%'
+      } else {
+        document.body.style.height = ''
+        document.body.style.overflow = ''
+        document.body.style.position = ''
+        document.body.style.width = ''
+      }
+    }, [nav])
+    useEffect(() => {
+      const targetId = sessionStorage.getItem('scrollTargetId')
+      if (targetId) {
+        const targetElement = document.getElementById(targetId)
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop,
+            behavior: 'smooth',
+          })
+          sessionStorage.removeItem('scrollTargetId')
+        }
+      }
+    }, [location.pathname, location.hash])
 
   return (
     <header className="header" ref={navbarRef}>
-      <NavLink to="/" onClick={handleNavLinkClick}>
+      <NavLink to="/Home" onClick={handleNavLinkClick}>
         <img className="header-logo" src={LogoTop} alt="" />
       </NavLink>
 
@@ -61,14 +85,19 @@ const Navbar = () => {
 
           <li
             className="nav-item"
-            onClick={() => handleNavLinkClick('/home', 'course')}
+            onClick={() => handleNavLinkClick('/Home', 'courses')}
           >
             Образовательная программа
           </li>
-          <NavLink to="/Home" onClick={handleNavLinkClick}>
-            <li className="nav-item">Клуб Free Sun</li>
+          <NavLink to="/Club-Free-Sun" onClick={handleNavLinkClick}>
+            <li
+              className="nav-item"
+              onClick={() => handleNavLinkClick('/Club-Free-Sun')}
+            >
+              Клуб Free Sun
+            </li>
           </NavLink>
-          <NavLink to="/Home" onClick={handleNavLinkClick}>
+          <NavLink to="/Gold-Bonus" onClick={handleNavLinkClick}>
             <li className="nav-item">Золотой бонус</li>
           </NavLink>
           <NavLink to="/Home" onClick={handleNavLinkClick}>

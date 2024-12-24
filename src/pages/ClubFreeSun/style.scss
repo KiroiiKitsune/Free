@@ -1,0 +1,177 @@
+
+
+.club-title {
+    font-family: gothampro_bold;
+    text-align: center;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 0.5px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+
+.club-conteiner {
+    display: flex;
+    gap: 32px;
+}
+
+.club-box {
+    background: url(../../img/austrian-national-library-unviuHdtKPA-unsplash\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 980px;
+    height: 760px;
+    border-radius: 40px;
+    padding: 55px;
+}
+
+.club-philosophy-title,
+.club-conditions-title,
+.club-concept-title {
+    font-family: gothampro-medium;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    margin-bottom: 40px;
+}
+
+.club-philosophy-txt,
+.club-conditions-txt,
+.club-concept-txt {
+    font-family: gothampro-medium;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.2px;
+}
+
+.club-box-conditions {
+    margin-top: 69px;
+}
+
+.club-concept {
+    width: 660px;
+    height: 760px;
+    background-color: rgb(222, 216, 203);
+    border-radius: 40px;
+    padding: 55px;
+}
+
+.club-concept-title {
+    color: black;
+}
+
+.club-concept-txt {
+    color: black;
+    margin-bottom: 30px;
+}
+
+.club-italic {
+    font-style: italic;
+}
+
+.slogal {
+    margin-top: 190px;
+}
+
+.slogan-txt {
+    font-family: gothampro-medium;
+    padding: 0 25px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.2px;
+}
+
+.role {
+    margin-top: 150px;
+    background: url(../../img/Plenka.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 850px;
+    padding: 0 68px;
+}
+
+.role-container {
+    display: flex;
+    gap: 25px;
+    padding-top: 165px;
+}
+
+.role-container-1,
+.role-container-2,
+.role-container-3 {
+    width: 573px;
+    height: 539px;
+    border-radius: 40px;
+    text-align: center;
+    padding: 70px;
+    box-shadow: inset 0px 0px 15px rgb(0 0 0);
+}
+
+.role-container-1 {
+    background: white;
+}
+
+.role-container-2 {
+    background: #fbdf00;
+}
+
+.role-container-3 {
+    background: rgb(207, 207, 207);
+}
+
+.role-title {
+    color: black;
+    font-family: gothampro_bold;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 132%;
+    letter-spacing: -0.2px;
+}
+
+.role-txt {
+    margin-top: 30px;
+    color: black;
+    font-family: gothampro-medium;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 132%;
+    letter-spacing: -0.2px;
+}
+
+.free {
+    margin-bottom: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.free-img {
+    position: relative;
+    left: 300px;
+    z-index: 10;
+    top: 300px;
+}
+
+
+.free-sun {
+    font-family: gothampro-medium;
+    font-size: 64px;
+    line-height: 70px;
+    z-index: 1;
+}
+
+.free-kino {
+    font-family: gothampro_italic;
+    font-size: 64px;
+    line-height: 70px;
+    margin-right: 240px;
+    z-index: 1;
+}
+
+@import "adaptiv";

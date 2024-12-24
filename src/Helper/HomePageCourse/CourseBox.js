@@ -18,7 +18,7 @@ const Course = memo(
     }, [courseData?.projectList])
 
     return (
-      <section className="main center" id='course' ref={ref}>
+      <section className="main center" id='courses' ref={ref}>
         <h2 className="main-title">
           <span className="yellow-span">ОБРАЗОВАТЕЛЬНЫЕ</span> ПРОГРАММЫ
         </h2>
