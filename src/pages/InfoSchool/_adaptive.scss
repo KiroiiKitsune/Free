@@ -435,6 +435,10 @@
 }
 
 @media (max-width: 500px) {
+    .center {
+        padding: 0px 10px;
+    }
+
   .about {
     margin-top: 50px;
     margin-left: auto;
@@ -501,15 +505,15 @@
   }
 
   .philosophy-content-box {
-    width: 345px;
-    height: 300px;
+    width: 310px;
+    height: auto;
     display: flex;
     padding: 17px 14px;
   }
 
   .philosophy-content-title {
     text-align: center;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 27px;
     margin-left: 0px;
   }
