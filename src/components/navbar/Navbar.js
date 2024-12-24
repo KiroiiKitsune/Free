@@ -71,8 +71,13 @@ const Navbar = () => {
 
   return (
     <header className="header" ref={navbarRef}>
-      <NavLink to="/Home" onClick={handleNavLinkClick}>
-        <img className="header-logo" src={LogoTop} alt="" />
+      <NavLink to="/Home">
+        <img
+          onClick={() => handleNavLinkClick('/Home')}
+          className="header-logo"
+          src={LogoTop}
+          alt=""
+        />
       </NavLink>
 
       <nav className="nav">
@@ -94,7 +99,7 @@ const Navbar = () => {
           >
             Образовательная программа
           </li>
-          <NavLink to="/Club-Free-Sun" onClick={handleNavLinkClick}>
+          <NavLink to="/Club-Free-Sun">
             <li
               className="nav-item"
               onClick={() => handleNavLinkClick('/Club-Free-Sun')}
@@ -102,11 +107,21 @@ const Navbar = () => {
               Клуб Free Sun
             </li>
           </NavLink>
-          <NavLink to="/Gold-Bonus" onClick={handleNavLinkClick}>
-            <li className="nav-item">Золотой бонус</li>
+          <NavLink to="/Gold-Bonus">
+            <li
+              onClick={() => handleNavLinkClick('/Gold-Bonus')}
+              className="nav-item"
+            >
+              Золотой бонус
+            </li>
           </NavLink>
-          <NavLink to="/Home" onClick={handleNavLinkClick}>
-            <li className="nav-item">Блок</li>
+          <NavLink to="/Home">
+            <li
+              onClick={() => handleNavLinkClick('/Home', 'courses')}
+              className="nav-item"
+            >
+              Блок
+            </li>
           </NavLink>
           <NavLink to="/Home" onClick={handleNavLinkClick}>
             <li className="nav-item">Новости</li>
