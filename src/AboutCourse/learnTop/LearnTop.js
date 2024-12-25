@@ -3,7 +3,7 @@ import Polygon from '../../img/Polygon 5.png'
 
 const LearnTop = ( project ) => {
   return (
-    <section className="learn cent">
+    <section className="learn cen">
       <div className="learn-box bg">
         <h3 className="learn-title">
           Что ты <em>узнаешь</em>

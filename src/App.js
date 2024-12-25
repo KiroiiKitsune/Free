@@ -29,14 +29,14 @@ function App() {
         <Routes>
           <Route path="/" element={<Navigate to="/Home" replace />} />
           {/* <Route path="/" element={<Navigate to="/home" replace />} /> */}
-          <Route path="/Home" element={<Home />} />
-          <Route path="/projects/:slug" element={<CourseDetails replace />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/projects/:slug" element={<CourseDetails  />} />
           <Route
             path="/information-about-the-school"
-            element={<InfoSchool replace />}
+            element={<InfoSchool  />}
           />
-          <Route path="/Club-Free-Sun" element={<ClubFreeSun replace />} />
-          <Route path="/Gold-Bonus" element={<GoldBonus replace />} />
+          <Route path="/Club-Free-Sun" element={<ClubFreeSun  />} />
+          <Route path="/Gold-Bonus" element={<GoldBonus  />} />
           <Route path="*" element={<Home />} />
         </Routes>
 

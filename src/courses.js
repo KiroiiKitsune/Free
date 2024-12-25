@@ -36,7 +36,7 @@ export default {
     //курс Основы актерского мастерства
     {
       slug: 'THE-COURSE-FUNDAMENTALS-OF-ACTING',
-      name: "КУРС “ОСНОВЫ <span class='yellow-span '>АКТЕРСКОГО МАСТЕРСТВА</span>”",
+      name: "ОСНОВЫ <span class='yellow-span '>АКТЕРСКОГО МАСТЕРСТВА</span>",
       txt: 'info',
       src: CreativePhotographyImg,
       alt: 'Основы Актерского Мастерства',
@@ -66,7 +66,7 @@ export default {
       quotes:
         "Сыграй свою лучшую роль вместе с <span class='yellow-span'>FREE SUN FILM SCHOOL</span>",
       quotesTitle: 'Ты в фокусе кино!',
-      data: "Курс предоставляет <span class='yellow-span'>уникальную возможность</span> овладеть ключевыми навыками <span class='yellow-span'>актерского мастерства</span> и получить возможность работы в проектах FREE SUN PRODUCTION и других кинокомпаний.",
+      data: "Курс предоставляет <span class='yellow-span'>уникальную возможность</span> овладеть ключевыми навыками <span class='yellow-span'>актерского мастерства</span> и получить возможность работы в проектах FREE SUN PRODUCTION и других кинокомпаний",
       dream: [
         {
           textTitle: 'ЕСЛИ ТЫ ВСЕГДА МЕЧТАЛ',
@@ -199,7 +199,7 @@ export default {
     // курс основы сценарного мастерства
     {
       slug: 'thebasicsofscreenwriting',
-      name: "КУРС “ОСНОВЫ <span class='yellow-span '>СЦЕНАРНОГО МАСТЕРСТВА</span>”",
+      name: "ОСНОВЫ <span class='yellow-span '>СЦЕНАРНОГО МАСТЕРСТВА</span>",
       txt: 'info',
       src: ScreenwritingSkills,
       alt: 'Основы Сценарного Мастерства',
@@ -226,7 +226,7 @@ export default {
       ],
       quotes: ' — будь в фокусе кино! Твои истории могут изменить мир!',
       quotesTitle: "<span class='yellow-span'>FREE SUN FILM SCHOOL</span>",
-      data: " Этот курс разработан мастером, который сочетает <span class='yellow-span'>опыт сценариста и режиссера</span>, передавая знания и практические инструменты, чтобы <span class='yellow-span'>твои идеи воплотились</span> на экране с профессиональной точностью.",
+      data: " Этот курс разработан мастером, который сочетает <span class='yellow-span'>опыт сценариста и режиссера</span>, передавая знания и практические инструменты, чтобы <span class='yellow-span'>твои идеи воплотились</span> на экране с профессиональной точностью",
       dream: [
         {
           textTitle: 'ЕСЛИ ТЫ МЕЧТАЕШЬ',
@@ -373,7 +373,7 @@ export default {
     //курс история кино братьв Люмьер
     {
       slug: 'thehistoryofcinema.',
-      name: "КУРС “<span class='yellow-span '>ИСТОРИЯ КИНО</span><br> ОТ БРАТЬЕВ ЛЮМЬЕР <br>ДО XXI ВЕКА”",
+      name: "<span class='yellow-span '>ИСТОРИЯ КИНО</span><br> ОТ БРАТЬЕВ ЛЮМЬЕР <br>ДО XXI ВЕКА",
       txt: 'info',
       src: HistoryFilm,
       alt: 'История кино от братьев Люмьер до XXI века',
@@ -401,7 +401,7 @@ export default {
       quote:
         "Сыграй свою лучшую роль вместе с <span class='yellow-span'>FREE SUN FILM SCHOOL</span>",
       quoteTitle: 'Ты в фокусе кино!',
-      data: "Курс предлагает <span class='yellow-span'>уникальное сочетание теории</span> глубокий анализ ключевых этапов <span class='yellow-span'>развития кино и просмотр культовых фильмов.</span> ",
+      data: "Курс предлагает <span class='yellow-span'>уникальное сочетание теории</span> глубокий анализ ключевых этапов <span class='yellow-span'>развития кино и просмотр культовых фильмов</span> ",
       dream: [
         {
           textTitle: 'ЕЕСЛИ ТЫ ЧУВСТВУЕШЬ',
@@ -501,7 +501,7 @@ export default {
     //курс Киноклуб
     {
       slug: 'kinoclub',
-      name: "КУРС <br> “<span class='yellow-span '>КИНОКЛУБ</span>”",
+      name: "<span class='yellow-span '>КИНОКЛУБ</span>",
       txt: 'info',
       src: CinemaClubTop,
       alt: 'Киноклуб',
@@ -529,7 +529,7 @@ export default {
       quotes:
         ' — это не просто развлечение. Это способ увидеть мир глазами другого человека и научиться читать сложный визуальный текст',
       quotesTitle: "<span class='yellow-span'>FREE SUN FILM SCHOOL</span>",
-      data: "Курс предназначен для всех, кто хочет научиться <span class='yellow-span'>понимать кино</span>  на более глубоком уровне. Вы научитесь анализировать визуальные решения, монтажные ходы, звукоряд и драматургию,чтобы раскрыть<span class='yellow-span'>все грани смысла</span>  фильма. ",
+      data: "Курс предназначен для всех, кто хочет научиться <span class='yellow-span'>понимать кино</span>  на более глубоком уровне. Вы научитесь анализировать визуальные решения, монтажные ходы, звукоряд и драматургию,чтобы раскрыть<span class='yellow-span'>все грани смысла</span>  фильма",
       dream: [
         {
           textTitle: 'ЕСЛИ ТЫ КОГДА-ЛИБО',
@@ -647,7 +647,7 @@ export default {
       quotes:
         ' будь в фокусе кино! Создавай рекламные видео, которые продают впечатления!',
       quotesTitle: "<span class='yellow-span'>FREE SUN FILM SCHOOL</span> —",
-      data: " Курс разработан <span class='yellow-span'>опытным продюсером</span> с многолетним опытом в международных проектах, включая <span class='yellow-span'>Netflix</span>  и крупные рекламные кампании. Уникальность заключается в сочетании теории и практики: разбор реальных кейсов, работа над живыми проектами и доступ к лучшим практикам индустрии.   ",
+      data: " Курс разработан <span class='yellow-span'>опытным продюсером</span> с многолетним опытом в международных проектах, включая <span class='yellow-span'>Netflix</span>  и крупные рекламные кампании. Уникальность заключается в сочетании теории и практики: разбор реальных кейсов, работа над живыми проектами и доступ к лучшим практикам индустрии",
       dream: [
         {
           textTitle: 'МЕЧТАЕШЬ СНИМАТЬ ', //боль
@@ -779,7 +779,7 @@ export default {
     // курс Киножанры
     {
       slug: 'moviegenres',
-      name: "КУРС <br><span class='yellow-span '>КИНОЖАНРЫ</span>",
+      name: "<br><span class='yellow-span '>КИНОЖАНРЫ</span>",
       txt: 'info',
       src: MovieGenres,
       alt: 'Киножанры',
@@ -809,7 +809,7 @@ export default {
       quotes: '  будь в фокусе кино! Стань королем своего жанра!',
       quotesTitle: "<span class='yellow-span'>FREE SUN FILM SCHOOL</span> —",
 
-      data: "Курс даёт возможность <span class='yellow-span'>детально</span> изучить жанры кино, раскрывая их ключевые принципы и элементы. Каждое занятие включает практические задания и разбор киноклассики, что позволяет не только освоить теорию, но и сразу применить её на практике, создавая собственные <span class='yellow-span'>жанровые проекты</span>. ",
+      data: "Курс даёт возможность <span class='yellow-span'>детально</span> изучить жанры кино, раскрывая их ключевые принципы и элементы. Каждое занятие включает практические задания и разбор киноклассики, что позволяет не только освоить теорию, но и сразу применить её на практике, создавая собственные <span class='yellow-span'>жанровые проекты</span>",
       dream: [
         {
           textTitle: 'ТВОИ ЖАНРОВЫЕ СЦЕНАРИИ',
@@ -949,7 +949,7 @@ export default {
     //Особенности создания киносценария к жанровому кинофильму
     {
       slug: 'featuresofcreatingascreenplayforagenremovie',
-      name: "КУРС <span class='yellow-span '>ОСОБЕННОСТИ СОЗДАНИЯ</span> КИНОСЦЕНАРИЯ К ЖАНРОВОМУ ФИЛЬМУ",
+      name: "<span class='yellow-span '>ОСОБЕННОСТИ СОЗДАНИЯ</span> КИНОСЦЕНАРИЯ К ЖАНРОВОМУ ФИЛЬМУ",
       txt: 'info',
       src: CreatingAScreenplay,
       alt: 'Особенности создания киносценария к жанровому кинофильму',
@@ -978,7 +978,7 @@ export default {
       ],
       quotes: ' будь в фокусе кино!Найди свой почерк!',
       quotesTitle: "<span class='yellow-span'>FREE SUN FILM SCHOOL</span> —",
-      data: "Курс разработан для овладения навыком создания <span class='yellow-span'>жанровых историй</span> .",
+      data: "Курс разработан для овладения навыком создания <span class='yellow-span'>жанровых историй</span>",
       dream: [
         {
           textTitle: 'ДУМАЕШЬ, ЧТО',
@@ -1104,7 +1104,7 @@ export default {
     //Работа режиссера с актером “Правила игры”
     {
       slug: 'thedirectorsworkwiththeactorrulesofthegame',
-      name: "КУРС РАБОТА РЕЖИССЕРА С АКТЕРОМ <br><span class='yellow-span '>ПРАВИЛА ИГРЫ</span> ",
+      name: "РАБОТА РЕЖИССЕРА С АКТЕРОМ <br><span class='yellow-span '>ПРАВИЛА ИГРЫ</span> ",
       txt: 'info',
       src: DirectorsWork,
       alt: 'Работа режиссера с актером “Правила игры”',
@@ -1134,7 +1134,7 @@ export default {
       quotes:
         'будь в фокусе кино! Секреты взаимодействия режиссера и актера на съемочной площадке',
       quotesTitle: "<span class='yellow-span'>FREE SUN FILM SCHOOL</span> —",
-      data: " Курс <span class='yellow-span'>«Правила игры»</span> подробно раскрывает особенности работы <span class='yellow-span'>режиссера</span> с <span class='yellow-span'>актером</span> и взаимодействие всех департаментов на съемочной площадке .",
+      data: " Курс <span class='yellow-span'>«Правила игры»</span> подробно раскрывает особенности работы <span class='yellow-span'>режиссера</span> с <span class='yellow-span'>актером</span> и взаимодействие всех департаментов на съемочной площадке",
       dream: [
         {
           textTitle: 'ПОНИМАЕШЬ ЧТО ',
@@ -1300,7 +1300,7 @@ export default {
     //Диалоги в комедии
     {
       slug: 'Dialoguesincomedy',
-      name: "КУРС ДИАЛОГИ<br> В <span class='yellow-span '>КОМЕДИИ</span> ",
+      name: "ДИАЛОГИ<br> В <span class='yellow-span '>КОМЕДИИ</span> ",
       txt: 'info',
       src: DialoguesInComedy,
       alt: 'Диалоги в комедии',
@@ -1330,7 +1330,7 @@ export default {
       quotes:
         'будь в фокусе кино! Мы научим тебя создавать диалоги, которые заставят зрителей смеяться и запоминать каждую реплику',
       quotesTitle: "<span class='yellow-span'>FREE SUN FILM SCHOOL</span> —",
-      data: " Курс предлагает <span class='yellow-span'>уникальную методику</span> написания диалогов для комедий, которая сокращает путь к созданию правдоподобных, живых и смешных сцен. Особое внимание уделяется <span class='yellow-span'>принципам</span>, которые редко раскрываются в других источниках, а также <span class='yellow-span'>важным аспектам</span>  работы с поэпизодниками и сценарной структурой комедии</span> с .",
+      data: " Курс предлагает <span class='yellow-span'>уникальную методику</span> написания диалогов для комедий, которая сокращает путь к созданию правдоподобных, живых и смешных сцен. Особое внимание уделяется <span class='yellow-span'>принципам</span>, которые редко раскрываются в других источниках, а также <span class='yellow-span'>важным аспектам</span>  работы с поэпизодниками и сценарной структурой комедии</span>",
       dream: [
         {
           textTitle: 'ТВОИ ДИАЛОГИ',
@@ -1504,5 +1504,6 @@ export default {
         },
       ],
     },
+    //Документальное кино
   ],
 }

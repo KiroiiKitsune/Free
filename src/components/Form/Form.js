@@ -3,7 +3,7 @@
 
 import { forwardRef } from 'react'
 import './style.css'
-// import Polygon from '../../img/Polygon 5.png'
+
 
 // eslint-disable-next-line no-unused-vars, react/prop-types
 const Form = forwardRef(({ form }, ref) => {
