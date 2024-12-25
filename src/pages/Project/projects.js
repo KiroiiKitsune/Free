@@ -29,7 +29,7 @@ const Projects = () => {
   }
   return (
     <>
-      <section className="course cent">
+      <section className="course cen">
         <div
           className="course-title"
           dangerouslySetInnerHTML={{ __html: project.name }}
@@ -64,7 +64,7 @@ const Projects = () => {
         <img className="polygon polygon-course" src={Polygon} alt="" />
       </section>
 
-      <section className="tutor cent">
+      <section className="tutor cen">
         <div className="tutor-box">
           <div className="tutor-box-info">
             <div className="tutor-info">
@@ -96,7 +96,7 @@ const Projects = () => {
         </div>
         <img className="polygon " src={Polygon} alt="" />
       </section>
-      <section className="data cent">
+      <section className="data cen">
         <div className="data-box">
           <p
             className="data-txt"
@@ -104,7 +104,7 @@ const Projects = () => {
           ></p>
         </div>
       </section>
-      <section className="dream cent">
+      <section className="dream cen">
         <div
           className="dream-bg"
           style={{ backgroundImage: `url(${project.bg})` }}
@@ -130,7 +130,7 @@ const Projects = () => {
 
       <LearnTop project={project} />
       <LearnBot project={project} />
-      <section className="focus cent">
+      <section className="focus cen">
         <h2
           className="focus-kino"
           dangerouslySetInnerHTML={{ __html: project.quotesTitle }}
@@ -140,7 +140,7 @@ const Projects = () => {
           dangerouslySetInnerHTML={{ __html: project.quotes }}
         ></h2>
       </section>
-      <section className="scheme cent">
+      <section className="scheme cen">
         <div className="scheme-bg ">
           <div className="scheme-box">
             <div>

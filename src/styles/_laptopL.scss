@@ -204,7 +204,7 @@
 
   .main-box {
     gap: 27px 22px;
-    padding: 19px 32px;
+    padding: 19px 17px;
   }
 
   .main-box-cur {
@@ -296,6 +296,10 @@
 
   .footer-info-box {
     gap: 14px;
+  }
+
+  .footer-info {
+    gap: 37px;
   }
 
   .footer-num {
@@ -649,6 +653,11 @@
     margin-top: 877px;
   }
 
+  .main-title {
+    font-size: 28px;
+    width: 334px;
+  }
+
   .main-box-cur {
     width: 320px;
     height: 258px;
@@ -700,18 +709,13 @@
   }
 
   .form-text {
-    width: 309px;
+    width: 300px;
     font-size: 20px;
     margin-bottom: 35px;
   }
 
   .footer-log {
     flex-direction: column;
-  }
-
-  .main-title {
-    font-size: 28px;
-    width: 300px;
   }
 
   .footer-info {

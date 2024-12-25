@@ -1,0 +1,109 @@
+.gold {
+    margin-top: 217px;
+    margin-bottom: 210px;
+}
+
+.gold-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1368px;
+}
+
+.gold-title {
+    font-family: gothampro_bold;
+    font-size: 64px;
+    letter-spacing: 0.5px;
+}
+
+.gold-prog-txt {
+    font-family: gothampro_italic;
+    font-size: 36px;
+    margin-top: 69px;
+    margin-bottom: 47px;
+    letter-spacing: -0.2px;
+}
+
+.gold-info-txt {
+    font-family: gothampro-medium;
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: -0.2px;
+}
+
+.gold-conditions {
+    font-family: gothampro_italic;
+    font-size: 32px;
+    margin: 47px 0;
+    letter-spacing: -0.2px;
+}
+
+.bonus {
+    padding: 0 160px;
+}
+
+.bonus-conteiner {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    gap: 75px;
+}
+
+.bonus-box {
+    width: 473px;
+    height: 407px;
+    grid-column: span 2;
+    grid-row: 2;
+    /* Размещаем элементы .bonus-box во второй строке */
+
+}
+
+.bonus-box-bot {
+    grid-column: span 4;
+    grid-row: 1;
+    /* Размещаем элементы .bonus-box-bot в первой строке */
+}
+
+.bonus-box-pos {
+    position: absolute;
+    right: 410px;
+}
+
+.bonus-img {
+    position: absolute;
+}
+
+.bonus-box-txt {
+    position: relative;
+    padding: 40px;
+}
+
+.bonus-title {
+    font-family: gothampro-medium;
+    font-size: 24px;
+    line-height: 30px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.bonus-txt {
+    margin-top: 5px;
+    color: black;
+    font-family: gothampro_regular;
+    font-size: 15px;
+    line-height: 120%;
+}
+
+.bonus-title-col,
+.bonus-txt-col {
+    color: white;
+}
+
+.bonus-line-box {
+    position: absolute;
+    top: 1478px;
+}
+
+.bonus-line {
+    width: 1600px;
+}
