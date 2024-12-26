@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/Free/static/css/main.eb4472b5.css",
-    "main.js": "/Free/static/js/main.485d8ed5.js",
+    "main.css": "/Free/static/css/main.b8f86e62.css",
+    "main.js": "/Free/static/js/main.b611e69d.js",
+    "static/media/работа-режиссера.png": "/Free/static/media/работа-режиссера.9ef7c2fd63de0330cd97.png",
     "static/media/главная произв-во видео.png": "/Free/static/media/главная произв-во видео.7c3cae3b5fdf6abc6294.png",
     "static/media/Cinema-club1.png": "/Free/static/media/Cinema-club1.15886e7d1437f49f35f1.png",
+    "static/media/работа-режиссера2.png": "/Free/static/media/работа-режиссера2.251645ea402d3c109909.png",
+    "static/media/производство.png": "/Free/static/media/производство.243e74327fe9ca224ca7.png",
     "static/media/Новикова.jpg": "/Free/static/media/Новикова.7506eedcd2dee05e6151.jpg",
     "static/media/главная работа режиссера с актером.png": "/Free/static/media/главная работа режиссера с актером.98588df0bc566a923379.png",
     "static/media/screenplays2.png": "/Free/static/media/screenplays2.5a803144be1071b4066f.png",
+    "static/media/произв-во видео на страницу курса.png": "/Free/static/media/произв-во видео на страницу курса.865f7647d1ea188bf7fb.png",
     "static/media/movie-genres2.png": "/Free/static/media/movie-genres2.ed16469d95bd9c13ccfe.png",
+    "static/media/киноклуб.png": "/Free/static/media/киноклуб.627d1d715e174c802f94.png",
     "static/media/планета (2).png": "/Free/static/media/планета (2).4a4264483237b41ea11d.png",
     "static/media/Man_Woman.png": "/Free/static/media/Man_Woman.77d8e2408e801e30b08a.png",
     "static/media/Финягин.jpg": "/Free/static/media/Финягин.9e18ba8b4fd64ff05b63.jpg",
@@ -53,11 +58,11 @@
     "static/media/GothamPro-Black.woff2": "/Free/static/media/GothamPro-Black.7ed52d1381d16affbaa7.woff2",
     "static/media/icons8-check.svg": "/Free/static/media/icons8-check.85d39173aa16206bdd0e.svg",
     "index.html": "/Free/index.html",
-    "main.eb4472b5.css.map": "/Free/static/css/main.eb4472b5.css.map",
-    "main.485d8ed5.js.map": "/Free/static/js/main.485d8ed5.js.map"
+    "main.b8f86e62.css.map": "/Free/static/css/main.b8f86e62.css.map",
+    "main.b611e69d.js.map": "/Free/static/js/main.b611e69d.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb4472b5.css",
-    "static/js/main.485d8ed5.js"
+    "static/css/main.b8f86e62.css",
+    "static/js/main.b611e69d.js"
   ]
 }
