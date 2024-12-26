@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Free/static/css/main.b8f86e62.css",
-    "main.js": "/Free/static/js/main.b611e69d.js",
+    "main.css": "/Free/static/css/main.4c46d58c.css",
+    "main.js": "/Free/static/js/main.8ffa0162.js",
     "static/media/работа-режиссера.png": "/Free/static/media/работа-режиссера.9ef7c2fd63de0330cd97.png",
     "static/media/главная произв-во видео.png": "/Free/static/media/главная произв-во видео.7c3cae3b5fdf6abc6294.png",
     "static/media/Cinema-club1.png": "/Free/static/media/Cinema-club1.15886e7d1437f49f35f1.png",
@@ -58,11 +58,11 @@
     "static/media/GothamPro-Black.woff2": "/Free/static/media/GothamPro-Black.7ed52d1381d16affbaa7.woff2",
     "static/media/icons8-check.svg": "/Free/static/media/icons8-check.85d39173aa16206bdd0e.svg",
     "index.html": "/Free/index.html",
-    "main.b8f86e62.css.map": "/Free/static/css/main.b8f86e62.css.map",
-    "main.b611e69d.js.map": "/Free/static/js/main.b611e69d.js.map"
+    "main.4c46d58c.css.map": "/Free/static/css/main.4c46d58c.css.map",
+    "main.8ffa0162.js.map": "/Free/static/js/main.8ffa0162.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8f86e62.css",
-    "static/js/main.b611e69d.js"
+    "static/css/main.4c46d58c.css",
+    "static/js/main.8ffa0162.js"
   ]
 }
