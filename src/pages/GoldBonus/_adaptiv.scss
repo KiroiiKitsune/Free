@@ -1,0 +1,284 @@
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .gold {
+    padding: 0 150px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+  }
+
+  .gold-box {
+    width: auto;
+  }
+
+  .gold-title {
+    text-align: center;
+    font-size: 56px;
+  }
+
+  .gold-prog-txt {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .gold-info-txt {
+    font-size: 24px;
+    line-height: 35px;
+    width: 1109px;
+  }
+
+  .gold-conditions {
+    font-family: gothampro_italic;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .bonus {
+    padding: 0 25px;
+  }
+
+  .bonus-box {
+    width: 380px;
+    height: 352px;
+  }
+
+  .bonus-conteiner {
+    display: grid;
+    gap: 57px 0px;
+    justify-items: start;
+  }
+  .bonus-title {
+    font-size: 23px;
+  }
+
+  .bonus-box-txt {
+    padding: 27px;
+  }
+
+  .bonus-box-pos-top {
+    position: relative;
+    left: 150px;
+  }
+
+  .bonus-txt {
+    font-size: 14px;
+    line-height: 130%;
+  }
+
+  .bonus-img {
+    width: 440px;
+  }
+
+  .bonus-box {
+    width: 440px;
+    height: 387px;
+  }
+
+  .bonus-box-pos {
+    position: absolute;
+    right: 310px;
+  }
+
+  .bonus-line-box {
+    position: absolute;
+    top: 1478px;
+  }
+
+  .bonus-line-box {
+    right: 134px;
+    position: absolute;
+    top: 1208px;
+  }
+
+  .bonus-line {
+    width: 1255px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .gold {
+    margin-top: 50px;
+    margin-bottom: 75px;
+  }
+
+  .gold-box {
+    width: auto;
+  }
+
+  .gold-title {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .gold-prog-txt {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .gold-info-txt {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .gold-conditions {
+    font-family: gothampro_italic;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .bonus {
+    padding: 0;
+  }
+
+  .bonus-conteiner {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .bonus-box {
+    width: 350px;
+    height: 300px;
+  }
+
+  .bonus-box-pos {
+    position: relative;
+    right: 0;
+    height: 308px;
+  }
+
+  .bonus-img {
+    width: 350px;
+    height: auto;
+  }
+
+  .bonus-box-txt {
+    padding: 12px;
+  }
+
+  .bonus-title {
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 5px;
+  }
+
+  .bonus-txt {
+    margin-top: 7px;
+    color: black;
+    font-family: gothampro_regular;
+    font-size: 13px;
+    line-height: 111%;
+  }
+
+  .bonus-title-col,
+  .bonus-txt-col {
+    color: white;
+  }
+
+  .bonus-line-box {
+    display: none;
+  }
+
+  .bonus-line {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .gold {
+    margin-top: 50px;
+    margin-bottom: 75px;
+  }
+
+  .gold-box {
+    width: auto;
+  }
+
+  .gold-title {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .gold-prog-txt {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .gold-info-txt {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .gold-conditions {
+    font-family: gothampro_italic;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .bonus {
+    padding: 0;
+  }
+
+  .bonus-conteiner {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .bonus-box {
+    width: 350px;
+    height: 300px;
+  }
+
+  .bonus-box-pos {
+    position: relative;
+    right: 0;
+    height: 308px;
+  }
+
+  .bonus-img {
+    width: 350px;
+    height: auto;
+  }
+
+  .bonus-box-txt {
+    padding: 12px;
+  }
+
+  .bonus-title {
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 5px;
+  }
+
+  .bonus-txt {
+    margin-top: 7px;
+    color: black;
+    font-family: gothampro_regular;
+    font-size: 13px;
+    line-height: 111%;
+  }
+
+  .bonus-title-col,
+  .bonus-txt-col {
+    color: white;
+  }
+
+  .bonus-line-box {
+    display: none;
+  }
+
+  .bonus-line {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .bonus-conteiner {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+}

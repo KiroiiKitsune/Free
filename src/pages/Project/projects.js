@@ -1,5 +1,3 @@
-
-
 import LearnBot from '../../AboutCourse/learnBot/LearnBot'
 import LearnTop from '../../AboutCourse/learnTop/LearnTop'
 import Form from '../../components/Form/Form'
@@ -13,19 +11,15 @@ import Marks from '../../img/кавычки.png'
 import Polygon from '../../img/Polygon 5.png'
 
 const Projects = () => {
- const { slug } = useParams()
- const decodedSlug = decodeURIComponent(slug)
- const project = Courses.projectList.find((item) => item.slug === decodedSlug)
+  const { slug } = useParams()
+  const decodedSlug = decodeURIComponent(slug)
+  const project = Courses.projectList.find((item) => item.slug === decodedSlug)
   if (!project) {
     return (
       <p className="Sorry">
         Извините курс еще в разработке, любо в ссылке есть ошибка
       </p>
     )
-
-
-
-    
   }
   return (
     <>
@@ -61,9 +55,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <img className="polygon polygon-course" src={Polygon} alt="" />
       </section>
-
+      <img className="polygon polygon-course" src={Polygon} alt="" />
       <section className="tutor cen">
         <div className="tutor-box">
           <div className="tutor-box-info">
@@ -94,8 +87,9 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <img className="polygon " src={Polygon} alt="" />
       </section>
+      <img className="polygon polygon-course" src={Polygon} alt="" />
+
       <section className="data cen">
         <div className="data-box">
           <p
@@ -104,6 +98,7 @@ const Projects = () => {
           ></p>
         </div>
       </section>
+
       <section className="dream cen">
         <div
           className="dream-bg"
@@ -125,9 +120,8 @@ const Projects = () => {
             dangerouslySetInnerHTML={{ __html: project.dream[0].text2 }}
           ></p>
         </div>
-        <img className="polygon polygon-tutor" src={Polygon} alt="" />
       </section>
-
+      <img className="polygon polygon-tutor" src={Polygon} alt="" />
       <LearnTop project={project} />
       <LearnBot project={project} />
       <section className="focus cen">
@@ -150,8 +144,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <img  src={Polygon} alt="" />
       </section>
+      <img className='polygon' src={Polygon} alt="" />
       <Form />
     </>
   )

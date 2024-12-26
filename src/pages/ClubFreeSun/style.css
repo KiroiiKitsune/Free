@@ -160,7 +160,7 @@
   font-family: gothampro-medium;
   font-size: 64px;
   line-height: 70px;
-  z-index: 1;
+  z-index: 10;
 }
 
 .free-kino {
@@ -168,9 +168,34 @@
   font-size: 64px;
   line-height: 70px;
   margin-right: 240px;
-  z-index: 1;
+  z-index: 10;
 }
 
+@media (min-width: 1440px) and (max-width: 1920px) {
+  .club {
+    padding: 0 150px;
+  }
+  .club-philosophy-txt,
+  .club-conditions-txt,
+  .club-concept-txt {
+    font-size: 19px;
+    line-height: 30px;
+  }
+  .slogan-txt {
+    font-size: 37px;
+  }
+  .slogal {
+    padding: 0 150px;
+  }
+  .role-container-1,
+  .role-container-2,
+  .role-container-3 {
+    padding: 40px;
+  }
+  .role-container {
+    padding-top: 140px;
+  }
+}
 @media (max-width: 1024px) {
   .center {
     padding: 0 65px;

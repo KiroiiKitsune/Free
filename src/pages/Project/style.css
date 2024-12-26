@@ -94,9 +94,8 @@
   font-weight: 400;
   line-height: 170%;
   letter-spacing: -0.4px;
-  width: 715px;
+  width: auto;
   overflow: hidden;
-  max-height: 100vh;
 }
 
 .tutor-photo {
@@ -125,8 +124,6 @@
 
 .data {
   margin: 210px 0;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 .data-box {
@@ -137,7 +134,7 @@
 }
 
 .data-txt {
-  padding: 38px 130px;
+  padding: 38px 45px;
   font-family: gothampro-medium;
   font-size: 28px;
   font-weight: 400;
@@ -146,7 +143,7 @@
 }
 
 .dream {
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 
 .dream-bg {
@@ -207,12 +204,15 @@
 }
 
 .learn {
+  margin-top: 150px;
   margin-bottom: 150px;
 }
 
 .learn-box {
-  height: 440px;
+  width: auto;
+  height: auto;
   margin-bottom: 51px;
+  padding: 55px 55px 30px;
 }
 
 .bg {
@@ -221,26 +221,26 @@
 }
 
 .learn-title {
-  padding: 55px 55px 30px;
   font-family: gothampro_regular;
   font-size: 63px;
   line-height: 70px;
   letter-spacing: 0.1px;
+  margin-bottom: 30px;
 }
 
 .learn-list {
   display: flex;
-  gap: 22px;
+  gap: 20px;
   width: 724px;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 290px;
+  width: auto;
+  height: auto;
 }
 
 .lear-list-box {
   display: flex;
-  padding-left: 102px;
-  gap: 75px;
+  gap: 10px;
 }
 
 .learn-list-txt {
@@ -248,7 +248,7 @@
   display: flex;
   align-items: center;
   font-family: gothampro-medium;
-  font-size: 26px;
+  font-size: 22px;
   letter-spacing: 0.25px;
 }
 
@@ -542,9 +542,6 @@
     right: -60px;
     bottom: -120px;
   }
-  .polygon-course {
-    margin-left: 0;
-  }
 }
 @media (max-width: 1024px) {
   .course {
@@ -704,6 +701,7 @@
   .learn-box {
     width: auto;
     height: auto;
+    padding: 20px;
   }
   .learn-list {
     display: flex;
@@ -776,9 +774,6 @@
     height: 700px;
     right: -60px;
     bottom: -120px;
-  }
-  .polygon-course {
-    margin-left: 0;
   }
 }
 @media (max-width: 768px) {
@@ -1128,6 +1123,7 @@
     width: 20px;
   }
   .learn-box {
+    padding: 25px;
     width: auto;
     height: auto;
   }
@@ -1166,6 +1162,10 @@
   }
   .scheme-bg-img {
     display: none;
+  }
+  .polygon-course {
+    position: relative;
+    top: 110px;
   }
 }
 @media (min-width: 320px) and (max-width: 380px) {
