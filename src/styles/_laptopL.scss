@@ -46,14 +46,6 @@
     height: 64px;
   }
 
-  .polygon {
-    margin-left: 50px;
-  }
-
-  .polygon-top {
-    margin-left: 50px;
-  }
-
   .top {
     width: 100%;
   }
@@ -127,6 +119,15 @@
 
   .footer-log {
     margin: 40px 50px;
+  }
+
+  .polygon {
+    padding-left: 115px;
+  }
+
+  .polygon-top {
+    position: relative;
+    top: 1120px;
   }
 }
 
@@ -221,23 +222,6 @@
     line-height: 22px;
   }
 
-  .polygon {
-    margin-left: 50px;
-    width: 18px;
-  }
-
-  .polygon-top {
-    margin-left: 50px;
-    width: 18px;
-  }
-  .polygon-course {
-    margin-left: 0;
-  }
-
-  .polygon-tutor {
-    margin-left: 0px;
-  }
-
   .form {
     padding: 0 50px;
     margin-bottom: 20px;
@@ -311,6 +295,15 @@
   .footer-icon-img {
     width: 50px;
   }
+
+  .polygon {
+    padding-left: 80px;
+  }
+
+  .polygon-top {
+    position: relative;
+    top: 930px;
+  }
 }
 
 @media (min-width: 840px) and (max-width: 960px) {
@@ -352,6 +345,15 @@
   .fooret-img {
     width: 96px;
     height: 152px;
+  }
+
+  .polygon {
+    padding-left: 80px;
+  }
+
+  .polygon-top {
+    position: relative;
+    top: 930px;
   }
 }
 
@@ -408,7 +410,7 @@
   }
 
   .top-content {
-    margin-top: 50px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -463,23 +465,6 @@
     margin-bottom: 48px;
   }
 
-  .polygon {
-    margin-left: 70px;
-  }
-
-  .polygon-top {
-    height: 20px;
-    margin-left: 70px;
-  }
-
-  .polygon-course {
-    margin-left: 50px;
-  }
-
-  .polygon-tutor {
-    margin-left: 0px;
-  }
-
   .main {
     display: flex;
     width: 100%;
@@ -526,8 +511,7 @@
   }
 
   .form-text {
-    width: 362px;
-    height: 122px;
+    height: 75px;
     font-size: 29px;
     line-height: 33px;
     letter-spacing: 2px;
@@ -535,7 +519,7 @@
 
   .form-box {
     gap: 20px;
-    padding: 40px 0 68px;
+    padding: 0 0 68px;
   }
 
   .form-box-data {
@@ -572,6 +556,7 @@
     line-height: 28px;
     text-align: center;
     width: 316px;
+    margin-bottom: 30px;
   }
 
   .footer {
@@ -637,6 +622,15 @@
     font-weight: 400;
     line-height: 10px;
     letter-spacing: -0.2px;
+  }
+
+  .polygon {
+    padding-left: 80px;
+  }
+
+  .polygon-top {
+    position: relative;
+    top: 930px;
   }
 }
 
@@ -709,9 +703,9 @@
   }
 
   .form-text {
+    height: 95px;
     width: 300px;
     font-size: 20px;
-    margin-bottom: 35px;
   }
 
   .footer-log {
@@ -730,12 +724,16 @@
     gap: 3px;
   }
 
-  .polygon {
-    margin-left: 30px;
-    width: 19px;
-  }
-
   .footer-icon {
     margin: 0;
+  }
+
+  .polygon {
+    padding-left: 50px;
+  }
+
+  .polygon-top {
+    position: relative;
+    top: 785px;
   }
 }

@@ -39,8 +39,8 @@ const LearnBot = (project) => {
             </ul>
           </div>
         </div>
-        <img src={Polygon} alt="" />
       </section>
+      <img className='polygon' src={Polygon} alt="" />
     </>
   )
 }

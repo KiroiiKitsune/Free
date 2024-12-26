@@ -9,7 +9,7 @@ import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
     return (
-      <footer className="footer center">
+      <footer className="footer center-footer">
         <div className="footer-box">
           <img className="fooret-img" src={Footerlog} alt="" />
 

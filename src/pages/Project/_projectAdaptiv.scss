@@ -250,9 +250,7 @@
     bottom: -120px;
   }
 
-  .polygon-course {
-    margin-left: 0;
-  }
+
 }
 
 @media (max-width: 1024px) {
@@ -441,6 +439,7 @@
   .learn-box {
     width: auto;
     height: auto;
+    padding: 20px;
   }
 
   .learn-list {
@@ -526,9 +525,7 @@
     bottom: -120px;
   }
 
-  .polygon-course {
-    margin-left: 0;
-  }
+
 }
 
 @media (max-width: 768px) {
@@ -939,6 +936,7 @@
   }
 
   .learn-box {
+    padding: 25px;
     width: auto;
     height: auto;
   }
@@ -982,6 +980,11 @@
 
   .scheme-bg-img {
     display: none;
+  }
+
+  .polygon-course{
+    position: relative;
+    top: 110px;
   }
 }
 

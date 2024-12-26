@@ -2,6 +2,11 @@
     margin-top: 200px;
 }
 
+.center-footer {
+    padding-left: calc(50% - 890px);
+    padding-right: calc(50% - 890px);
+}
+
 .fooret-img {
     width: 149px;
     height: 239px;

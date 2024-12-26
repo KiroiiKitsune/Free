@@ -37,7 +37,7 @@ const GoldBonus = () => {
 
         <div className="bonus">
           <div className="bonus-conteiner">
-            <div className="bonus-box bonus-box-bot">
+            <div className="bonus-box bonus-box-bot bonus-box-pos-top">
               <img className="bonus-img" src={boxOne} alt="" />
               <div className="bonus-box-txt">
                 <h2 className="bonus-title">

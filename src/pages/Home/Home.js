@@ -53,12 +53,11 @@ const Home = () => {
 
           <button className="top-content-btn">ИДУ В КИНО</button>
         </section>
-        <img className="polygon-top polygon  center" src={Polygon} alt="" />
       </section>
+      <img className=" polygon polygon-top" src={Polygon} alt="" />
       <Course courseData={CourseData} />
       <img className="polygon" src={Polygon} alt="" />
       <Form />
-      <img className="polygon" src={Polygon} alt="" />
     </>
   )
 }
