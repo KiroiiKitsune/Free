@@ -511,6 +511,7 @@
   }
 
   .form-text {
+    margin-bottom: 80px;
     height: 75px;
     font-size: 29px;
     line-height: 33px;
@@ -703,7 +704,8 @@
   }
 
   .form-text {
-    height: 95px;
+    height: auto;
+
     width: 300px;
     font-size: 20px;
   }
